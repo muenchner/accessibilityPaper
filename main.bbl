@@ -1,0 +1,165 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{duenas-osorio_seismic_2007}
+L.~Due{\~n}as-Osorio, J.~I. Craig, B.~J. Goodno, Seismic response of critical
+  interdependent networks, Earthquake Engineering \& Structural Dynamics 36~(2)
+  (2007) 285–306.
+\newblock \href {http://dx.doi.org/10.1002/eqe.626}
+  {\path{doi:10.1002/eqe.626}}.
+
+\bibitem{lee_post-hazard_2011}
+Y.-J. Lee, J.~Song, P.~Gardoni, H.-W. Lim, Post-hazard flow capacity of bridge
+  transportation network considering structural deterioration of bridges,
+  Structure and Infrastructure Engineering 7~(7-8) (2011) 509–521.
+\newblock \href {http://dx.doi.org/10.1080/15732479.2010.493338}
+  {\path{doi:10.1080/15732479.2010.493338}}.
+
+\bibitem{chang_probabilistic_2000}
+S.~E. Chang, M.~Shinozuka, J.~E. Moore, Probabilistic earthquake scenarios:
+  Extending risk analysis methodologies to spatially distributed systems,
+  Earthquake Spectra 16~(3) (2000) 557--572.
+\newblock \href {http://dx.doi.org/10.1193/1.1586127}
+  {\path{doi:10.1193/1.1586127}}.
+
+\bibitem{bolin_northridge_1998}
+R.~C. Bolin, L.~Stanford, {The Northridge earthquake: vulnerability and
+  disaster}, Routledge, London; New York, 1998.
+
+\bibitem{the_world_bank_and_the_united_nations_natural_2010}
+{The World Bank and the United Nations}, Natural hazards, unnatural disasters:
+  the economics of effective prevention, Tech. rep., {The World Bank},
+  Washington {D.C.} (2010).
+
+\bibitem{california._dept._of_transportation._post_earthquake_investigation_team_northridge_1994}
+{California. Dept. of Transportation. Post Earthquake Investigation Team},
+  Northridge earthquake, 17 January 1994: {PEQIT} report, California Department
+  of Transportation, Division of Structures, Sacramento, 1994.
+
+\bibitem{tierney_business_1997}
+K.~J. Tierney, {Business Impacts of the Northridge Earthquake}, Journal of
+  Contingencies and Crisis Management 5~(2) (1997) 87--97.
+\newblock \href {http://dx.doi.org/10.1111/1468-5973.00040}
+  {\path{doi:10.1111/1468-5973.00040}}.
+
+\bibitem{gordon_transport-related_1998}
+P.~Gordon, H.~W. Richardson, B.~Davis, {Transport-related impacts of the
+  Northridge earthquake}, National Emergency Training Center, 1998.
+
+\bibitem{united_states_department_of_labor_guide_2014}
+{United States Department of Labor}, Guide to available {CPI} data (2014).
+
+\bibitem{kiremidjian_seismic_2007}
+A.~Kiremidjian, J.~Moore, Y.~Y. Fan, O.~Yazlali, N.~Bas{\"o}z, M.~Williams,
+  Seismic risk assessment of transportation network systems, Journal of
+  Earthquake Engineering 11~(3) (2007) 371--382.
+\newblock \href {http://dx.doi.org/10.1080/13632460701285277}
+  {\path{doi:10.1080/13632460701285277}}.
+
+\bibitem{jayaram_efficient_2010}
+N.~Jayaram, J.~W. Baker, Efficient sampling and data reduction techniques for
+  probabilistic seismic lifeline risk assessment, Earthquake Engineering \&
+  Structural Dynamics 39~(10) (2010) 1109--1131.
+\newblock \href {http://dx.doi.org/10.1002/eqe.988}
+  {\path{doi:10.1002/eqe.988}}.
+
+\bibitem{oliveira_concept_2012}
+C.~S. Oliveira, M.~A. Ferreira, F.~M.~d. Sá, The concept of a disruption
+  index: application to the overall impact of the july 9, 1998 faial earthquake
+  (azores islands), Bulletin of Earthquake Engineering 10~(1) (2012) 7--25.
+\newblock \href {http://dx.doi.org/10.1007/s10518-011-9333-8}
+  {\path{doi:10.1007/s10518-011-9333-8}}.
+
+\bibitem{bocchini_restoration_2012}
+P.~Bocchini, D.~M. Frangopol, Restoration of bridge networks after an
+  earthquake: Multicriteria intervention optimization, Earthquake Spectra
+  28~(2) (2012) 426--455.
+\newblock \href {http://dx.doi.org/10.1193/1.4000019}
+  {\path{doi:10.1193/1.4000019}}.
+
+\bibitem{cavalieri_quantitative_2012}
+F.~Cavalieri, P.~Franchin, P.~Gehl, B.~Khazai, Quantitative assessment of
+  social losses based on physical damage and interaction with infrastructural
+  systems, Earthquake Engineering \& Structural Dynamics 41~(11) (2012)
+  1569--1589.
+\newblock \href {http://dx.doi.org/10.1002/eqe.2220}
+  {\path{doi:10.1002/eqe.2220}}.
+
+\bibitem{khazai_social_2011}
+B.~Khazai, B.~Vangelsten, S.~Duzgun, J.~Braun, J.~Daniell, Social impacts of
+  emergency shelter provision in the aftermath of earthquakes: Integrating
+  social vulnerability in systemic seismic vulnerability analysis, in:
+  Geophysical Research Abstracts, Vol.~13, 2011.
+
+\bibitem{burton_social_2014}
+C.~G. Burton,
+  \href{http://www.globalquakemodel.org/what/physical-integrated-risk/socio-economic-vulnerability/}{Social
+  vulnerability} (2014).
+\newline\urlprefix\url{http://www.globalquakemodel.org/what/physical-integrated-risk/socio-economic-vulnerability/}
+
+\bibitem{unwin_town_1909}
+R.~Unwin, Town planning in practice: An introduction to the art of designing
+  cities and suburbs, T. Fisher Unwin, 1909.
+
+\bibitem{chapin_urban_1970}
+F.~S. Chapin, Urban land use planning, University of Illinois Press, 1970.
+
+\bibitem{niemeier_accessibility:_1997}
+D.~A. Niemeier, Accessibility: an evaluation using consumer welfare,
+  Transportation 24~(4) (1997) 377–396.
+
+\bibitem{kennedy_comparison_2002}
+C.~A. Kennedy, A comparison of the sustainability of public and private
+  transportation systems: Study of the greater toronto area, Transportation
+  29~(4) (2002) 459--493.
+\newblock \href {http://dx.doi.org/10.1023/A:1016302913909}
+  {\path{doi:10.1023/A:1016302913909}}.
+
+\bibitem{geurs_accessibility_2004}
+K.~T. Geurs, B.~van Wee, Accessibility evaluation of land-use and transport
+  strategies: review and research directions, Journal of Transport Geography
+  12~(2) (2004) 127--140.
+\newblock \href {http://dx.doi.org/10.1016/j.jtrangeo.2003.10.005}
+  {\path{doi:10.1016/j.jtrangeo.2003.10.005}}.
+
+\bibitem{handy_measuring_1997}
+S.~L. Handy, D.~A. Niemeier, Measuring accessibility: an exploration of issues
+  and alternatives, Environment and Planning A 29~(7) (1997) 1175–1194.
+
+\bibitem{hernandez-fajardo_probabilistic_2013}
+I.~Hernandez-Fajardo, L.~Due{\~n}as-Osorio, Probabilistic study of cascading
+  failures in complex interdependent lifeline systems, Reliability Engineering
+  \& System Safety 111 (2013) 260--272.
+\newblock \href {http://dx.doi.org/10.1016/j.ress.2012.10.012}
+  {\path{doi:10.1016/j.ress.2012.10.012}}.
+
+\bibitem{hernandez-fajardo_sequential_2011}
+I.~Hernandez-Fajardo, L.~Due{\~n}as-Osorio, Sequential propagation of seismic
+  fragility across interdependent lifeline systems, Earthquake Spectra 27~(1)
+  (2011) 23--43.
+\newblock \href {http://dx.doi.org/10.1193/1.3544052}
+  {\path{doi:10.1193/1.3544052}}.
+
+\bibitem{cervero_polycentrism_1997}
+R.~Cervero, K.-L. Wu, {Polycentrism, commuting, and residential location in the
+  San Francisco Bay area}, Environment and Planning A 29~(5) (1997) 865--886.
+
+\bibitem{ory_personal_2013}
+D.~Ory, Personal communication (2013).
+
+\bibitem{fothergill_race_1999}
+A.~Fothergill, E.~G.~M. Maestas, J.~D. Darlington, {Race, ethnicity and
+  disasters in the United States: a review of the literature}, Disasters 23~(2)
+  (1999) 156--173.
+\newblock \href {http://dx.doi.org/10.1111/1467-7717.00111}
+  {\path{doi:10.1111/1467-7717.00111}}.
+
+\bibitem{u.s._bureau_of_the_census_united_2010}
+{U.S. Bureau of the Census}, United states census 2010, Tech. rep., {U.S.}
+  Census Bureau, Washington {D.C.} (2010).
+
+\end{thebibliography}
