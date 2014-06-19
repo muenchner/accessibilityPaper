@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  11 JUN 2014 11:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  18 JUN 2014 18:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -495,46 +495,53 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip48
 \rot@float@box=\box31
 \rot@mess@toks=\toks20
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 131.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 131
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 132.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 132
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 131.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 131
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 132.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 132
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 131.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 131
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 132.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 132
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 131.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 131.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 132.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 132.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 131.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 132.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/ot1txr.fd
@@ -633,50 +640,46 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 174.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 175.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <9> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 174.
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 187.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 187.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 175.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 188.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 188.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 187.
+LaTeX Font Info:    Try loading font information for U+msa on input line 188.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 187.
+LaTeX Font Info:    Try loading font information for U+msb on input line 188.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 187.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 188.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 195
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 196
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 195.
+(Font)              scaled to size 4.74998pt on input line 196.
 
-(./010intro.tex
-
-LaTeX Warning: Reference `chapt:methods' on page 1 undefined on input line 1.
-
-<elsevier-logo-3p.pdf, id=1, 54.08205pt x 59.7432pt>
+(./010intro.tex <elsevier-logo-3p.pdf, id=1, 54.08205pt x 59.7432pt>
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 
 <use elsevier-logo-3p.pdf>
@@ -709,38 +712,7 @@ Overfull \vbox (49.74303pt too high) has occurred while \output is active []
 
 [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./elsevier-logo-3p.pdf> <./SDlogo-3p.pdf>]
-
-LaTeX Warning: Reference `eq:acc' on page 2 undefined on input line 58.
-
-
-LaTeX Warning: Reference `chapt:methods' on page 2 undefined on input line 66.
-
-
-LaTeX Warning: Reference `chapt:methods' on page 2 undefined on input line 70.
-
-
-LaTeX Warning: Reference `chapt:opt' on page 2 undefined on input line 70.
-
-) [2] (./020case.tex
-
-LaTeX Warning: Reference `sec:caseMet' on page 3 undefined on input line 6.
-
-
-LaTeX Warning: Reference `sec:accessibility' on page 3 undefined on input line 
-6.
-
-
-LaTeX Warning: Reference `chapt:opt' on page 3 undefined on input line 8.
-
-
-LaTeX Warning: Reference `chapt:b' on page 3 undefined on input line 8.
-
-
-LaTeX Warning: Reference `sec:accessibility' on page 3 undefined on input line 
-8.
-
-
+ <./elsevier-logo-3p.pdf> <./SDlogo-3p.pdf>]) [2] (./030framework.tex
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./FIGS/equity_case.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
@@ -748,155 +720,154 @@ on: found PDF version <1.6>, but at most version <1.5> allowed
 File: FIGS/equity_case.pdf Graphic file (type pdf)
 
 <use FIGS/equity_case.pdf>
-Package pdftex.def Info: FIGS/equity_case.pdf used on input line 12.
+Package pdftex.def Info: FIGS/equity_case.pdf used on input line 6.
 (pdftex.def)             Requested size: 433.62pt x 597.76141pt.
-) [3
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ../FIGS/Mahalia_four_pannels204v5.pd
+f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../FIGS/Mahalia_four_pannels204v5.pdf, id=27, 751.29504pt x 325.215pt>
+File: ../FIGS/Mahalia_four_pannels204v5.pdf Graphic file (type pdf)
+
+<use ../FIGS/Mahalia_four_pannels204v5.pdf>
+Package pdftex.def Info: ../FIGS/Mahalia_four_pannels204v5.pdf used on input li
+ne 18.
+(pdftex.def)             Requested size: 622.0pt x 269.25845pt.
+ [3
 
 ] [4 <./FIGS/equity_case.pdf>]
-(./040regionwideanalysis.tex
+[5 <../FIGS/Mahalia_four_pannels204v5.pdf>]
 
-LaTeX Warning: Reference `tab:incomes' on page 5 undefined on input line 1.
+LaTeX Warning: Reference `fig:bart' on page 6 undefined on input line 71.
 
+[6] [7] [8]) (./040regionwideanalysis.tex
 Package epstopdf Info: Source file: <FIGS/equity_dataset_count_bars.eps>
-(epstopdf)                    date: 2014-03-30 17:36:20
+(epstopdf)                    date: 2014-03-30 19:36:20
 (epstopdf)                    size: 9467 bytes
 (epstopdf)             Output file: <FIGS/equity_dataset_count_bars-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2014-06-11 11:41:46
+(epstopdf)                    date: 2014-06-11 13:41:46
 (epstopdf)                    size: 9476 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGS/equity_dataset_count_
 bars-eps-converted-to.pdf FIGS/equity_dataset_count_bars.eps>
-(epstopdf)             \includegraphics on input line 17.
+(epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 
-<FIGS/equity_dataset_count_bars-eps-converted-to.pdf, id=57, 373.395pt x 304.13
-625pt>
+<FIGS/equity_dataset_count_bars-eps-converted-to.pdf, id=133, 373.395pt x 304.1
+3625pt>
 File: FIGS/equity_dataset_count_bars-eps-converted-to.pdf Graphic file (type pd
 f)
  <use FIGS/equity_dataset_count_bars-eps-converted-to.pdf>
 Package pdftex.def Info: FIGS/equity_dataset_count_bars-eps-converted-to.pdf us
-ed on input line 17.
+ed on input line 32.
 (pdftex.def)             Requested size: 433.62pt x 353.20667pt.
 
-<FIGS/accByGroup.pdf, id=58, 407.45763pt x 718.46642pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<FIGS/accByGroup.pdf, id=134, 407.45763pt x 718.46642pt>
 File: FIGS/accByGroup.pdf Graphic file (type pdf)
 
 <use FIGS/accByGroup.pdf>
-Package pdftex.def Info: FIGS/accByGroup.pdf used on input line 45.
+Package pdftex.def Info: FIGS/accByGroup.pdf used on input line 60.
 (pdftex.def)             Requested size: 327.89389pt x 578.15999pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `sec:accessibility' on page 5 undefined on input line 
-56.
-
-[5
-
- <./FIGS/equity_dataset_count_bars-eps-converted-to.pdf>]
+[9]
 Package epstopdf Info: Source file: <FIGS/equity_trip_distance_income_cars_to_a
 nd_from_work.eps>
-(epstopdf)                    date: 2014-03-30 17:38:44
+(epstopdf)                    date: 2014-03-30 19:38:44
 (epstopdf)                    size: 14609 bytes
 (epstopdf)             Output file: <FIGS/equity_trip_distance_income_cars_to_a
 nd_from_work-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-11 11:41:47
+(epstopdf)                    date: 2014-06-11 13:41:47
 (epstopdf)                    size: 12930 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGS/equity_trip_distance_
 income_cars_to_and_from_work-eps-converted-to.pdf FIGS/equity_trip_distance_inc
 ome_cars_to_and_from_work.eps>
-(epstopdf)             \includegraphics on input line 64.
+(epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
 <FIGS/equity_trip_distance_income_cars_to_and_from_work-eps-converted-to.pdf, i
-d=70, 332.24126pt x 484.81125pt>
+d=138, 332.24126pt x 484.81125pt>
 File: FIGS/equity_trip_distance_income_cars_to_and_from_work-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use FIGS/equity_trip_distance_income_cars_to_and_from_work-eps-converted-to.pd
 f>
 Package pdftex.def Info: FIGS/equity_trip_distance_income_cars_to_and_from_work
--eps-converted-to.pdf used on input line 64.
+-eps-converted-to.pdf used on input line 79.
 (pdftex.def)             Requested size: 361.34999pt x 527.31674pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <FIGS/equity_accLength2.eps>
-(epstopdf)                    date: 2014-05-07 11:57:18
+(epstopdf)                    date: 2014-05-07 13:57:18
 (epstopdf)                    size: 89273 bytes
 (epstopdf)             Output file: <FIGS/equity_accLength2-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-06-11 11:41:48
+(epstopdf)                    date: 2014-06-11 13:41:48
 (epstopdf)                    size: 87745 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGS/equity_accLength2-eps
 -converted-to.pdf FIGS/equity_accLength2.eps>
-(epstopdf)             \includegraphics on input line 73.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
-<FIGS/equity_accLength2-eps-converted-to.pdf, id=71, 377.41pt x 304.13625pt>
+<FIGS/equity_accLength2-eps-converted-to.pdf, id=139, 377.41pt x 304.13625pt>
 File: FIGS/equity_accLength2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use FIGS/equity_accLength2-eps-converted-to.pdf>
 Package pdftex.def Info: FIGS/equity_accLength2-eps-converted-to.pdf used on in
-put line 73.
+put line 88.
 (pdftex.def)             Requested size: 433.62pt x 349.43375pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:faultsB' on page 6 undefined on input line 92.
-
-<FIGS/accByEq.png, id=72, 421.575pt x 718.93594pt>
+[10 <./FIGS/equity_dataset_count_bars-eps-converted-to.pdf>]
+<FIGS/accByEq.png, id=152, 421.575pt x 718.93594pt>
 File: FIGS/accByEq.png Graphic file (type png)
  <use FIGS/accByEq.png>
-Package pdftex.def Info: FIGS/accByEq.png used on input line 123.
+Package pdftex.def Info: FIGS/accByEq.png used on input line 138.
 (pdftex.def)             Requested size: 339.04874pt x 578.15999pt.
+LaTeX Font Info:    Try loading font information for U+bbm on input line 148.
 
-
-LaTeX Warning: Reference `sec:theoryMet' on page 6 undefined on input line 131.
-
-
-
-LaTeX Warning: Reference `sec:metPM' on page 6 undefined on input line 131.
-
-
-LaTeX Warning: Reference `sec:accessibility' on page 6 undefined on input line 
-136.
-
-[6]
+(/usr/local/texlive/2012/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+)
 Package epstopdf Info: Source file: <FIGS/equity_acc_loss_curves.eps>
-(epstopdf)                    date: 2014-03-30 16:36:18
+(epstopdf)                    date: 2014-03-30 18:36:18
 (epstopdf)                    size: 12231 bytes
 (epstopdf)             Output file: <FIGS/equity_acc_loss_curves-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2014-06-11 11:41:49
+(epstopdf)                    date: 2014-06-11 13:41:49
 (epstopdf)                    size: 12387 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGS/equity_acc_loss_curve
 s-eps-converted-to.pdf FIGS/equity_acc_loss_curves.eps>
-(epstopdf)             \includegraphics on input line 140.
+(epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
 
-<FIGS/equity_acc_loss_curves-eps-converted-to.pdf, id=77, 332.24126pt x 484.811
-25pt>
+<FIGS/equity_acc_loss_curves-eps-converted-to.pdf, id=154, 332.24126pt x 484.81
+125pt>
 File: FIGS/equity_acc_loss_curves-eps-converted-to.pdf Graphic file (type pdf)
  <use FIGS/equity_acc_loss_curves-eps-converted-to.pdf>
 Package pdftex.def Info: FIGS/equity_acc_loss_curves-eps-converted-to.pdf used 
-on input line 140.
+on input line 163.
 (pdftex.def)             Requested size: 361.34999pt x 527.31674pt.
-) [7] [8 <./FIGS/accByGroup.pdf>] [9 <./FIGS/equity_trip_distance_income_cars_t
-o_and_from_work-eps-converted-to.pdf>] [10 <./FIGS/equity_accLength2-eps-conver
-ted-to.pdf>]
-[11 <./FIGS/accByEq.png>] [12 <./FIGS/equity_acc_loss_curves-eps-converted-to.p
+) [11] [12 <./FIGS/accByGroup.pdf>] [13 <./FIGS/equity_trip_distance_income_car
+s_to_and_from_work-eps-converted-to.pdf>] [14 <./FIGS/equity_accLength2-eps-con
+verted-to.pdf>]
+[15 <./FIGS/accByEq.png>] [16 <./FIGS/equity_acc_loss_curves-eps-converted-to.p
 df>] (./050sf.tex
 Package epstopdf Info: Source file: <FIGS/equity_trip_time_distance_pdfs_by_taz
 _to_work_and_from_work.eps>
-(epstopdf)                    date: 2014-03-30 13:26:31
+(epstopdf)                    date: 2014-03-30 15:26:31
 (epstopdf)                    size: 14468 bytes
 (epstopdf)             Output file: <FIGS/equity_trip_time_distance_pdfs_by_taz
 _to_work_and_from_work-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-11 11:41:51
+(epstopdf)                    date: 2014-06-11 13:41:51
 (epstopdf)                    size: 12874 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGS/equity_trip_time_dist
 ance_pdfs_by_taz_to_work_and_from_work-eps-converted-to.pdf FIGS/equity_trip_ti
@@ -905,7 +876,7 @@ me_distance_pdfs_by_taz_to_work_and_from_work.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <FIGS/equity_trip_time_distance_pdfs_by_taz_to_work_and_from_work-eps-converted
--to.pdf, id=149, 343.2825pt x 484.81125pt>
+-to.pdf, id=227, 343.2825pt x 484.81125pt>
 File: FIGS/equity_trip_time_distance_pdfs_by_taz_to_work_and_from_work-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
@@ -918,45 +889,37 @@ _from_work-eps-converted-to.pdf used on input line 13.
 
 LaTeX Warning: Float too large for page by 21.1293pt on input line 16.
 
-) [13
+) [17
 
-] [14 <./FIGS/equity_trip_time_distance_pdfs_by_taz_to_work_and_from_work-eps-c
+] [18 <./FIGS/equity_trip_time_distance_pdfs_by_taz_to_work_and_from_work-eps-c
 onverted-to.pdf>] (./060pacifica.tex
-
-LaTeX Warning: Reference `fig:faultsB' on page 15 undefined on input line 9.
-
-
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./FIGS/equity_hmb.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<FIGS/equity_hmb.pdf, id=167, 614.295pt x 794.97pt>
+<FIGS/equity_hmb.pdf, id=243, 614.295pt x 794.97pt>
 File: FIGS/equity_hmb.pdf Graphic file (type pdf)
  <use FIGS/equity_hmb.pdf>
 Package pdftex.def Info: FIGS/equity_hmb.pdf used on input line 30.
 (pdftex.def)             Requested size: 390.92596pt x 505.89pt.
 )
-[15
+[19
 
-] [16 <./FIGS/equity_hmb.pdf>] (./070danville.tex
-
-LaTeX Warning: Reference `chapt:bridge' on page 17 undefined on input line 14.
-
-) [17
+] [20 <./FIGS/equity_hmb.pdf>] (./070danville.tex) [21
 
 ] (./080discussion.tex
 Package epstopdf Info: Source file: <FIGS/equity_bart_bridges_acc.eps>
-(epstopdf)                    date: 2014-03-31 16:21:22
+(epstopdf)                    date: 2014-03-31 18:21:22
 (epstopdf)                    size: 13609 bytes
 (epstopdf)             Output file: <FIGS/equity_bart_bridges_acc-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-06-11 11:41:52
+(epstopdf)                    date: 2014-06-11 13:41:52
 (epstopdf)                    size: 13208 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGS/equity_bart_bridges_a
 cc-eps-converted-to.pdf FIGS/equity_bart_bridges_acc.eps>
 (epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 
-<FIGS/equity_bart_bridges_acc-eps-converted-to.pdf, id=226, 382.42876pt x 314.1
+<FIGS/equity_bart_bridges_acc-eps-converted-to.pdf, id=304, 382.42876pt x 314.1
 7375pt>
 File: FIGS/equity_bart_bridges_acc-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -964,37 +927,29 @@ File: FIGS/equity_bart_bridges_acc-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: FIGS/equity_bart_bridges_acc-eps-converted-to.pdf used
  on input line 80.
 (pdftex.def)             Requested size: 433.62pt x 356.24423pt.
-
-
-LaTeX Warning: Reference `sec:transitDamage' on page 18 undefined on input line
- 87.
-
-
-LaTeX Warning: Reference `sec:caseMet' on page 18 undefined on input line 110.
-
-[18
+ [22
 
  <./FIGS/equity_bart_bridges_acc-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <FIGS/equity_footVsAcc2.eps>
-(epstopdf)                    date: 2014-05-07 11:58:40
+(epstopdf)                    date: 2014-05-07 13:58:40
 (epstopdf)                    size: 89709 bytes
 (epstopdf)             Output file: <FIGS/equity_footVsAcc2-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2014-06-11 11:41:54
+(epstopdf)                    date: 2014-06-11 13:41:54
 (epstopdf)                    size: 87067 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGS/equity_footVsAcc2-eps
 -converted-to.pdf FIGS/equity_footVsAcc2.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<FIGS/equity_footVsAcc2-eps-converted-to.pdf, id=239, 377.41pt x 304.13625pt>
+<FIGS/equity_footVsAcc2-eps-converted-to.pdf, id=317, 377.41pt x 304.13625pt>
 File: FIGS/equity_footVsAcc2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use FIGS/equity_footVsAcc2-eps-converted-to.pdf>
 Package pdftex.def Info: FIGS/equity_footVsAcc2-eps-converted-to.pdf used on in
 put line 120.
 (pdftex.def)             Requested size: 433.62pt x 349.43375pt.
-) [19] [20 <./FIGS/equity_footVsAcc2-eps-converted-to.pdf>] (./090conclusion.te
+) [23] [24 <./FIGS/equity_footVsAcc2-eps-converted-to.pdf>] (./090conclusion.te
 x) (./main.bbl
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
@@ -1002,7 +957,7 @@ Missing character: There is no “ in font txr!
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
- [21
+ [25
 
 ]
 Missing character: There is no Ã in font txr!
@@ -1013,33 +968,59 @@ Missing character: There is no “ in font txr!
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
-) [22]
-(./main.aux)
+
+Underfull \hbox (badness 3536) in paragraph at lines 183--187
+[]\OT1/txr/m/n/8 K. W. Camp-bell, Strong mo-tion at-ten-u-a-tion re-la-tions: A
+ ten-year per-spec-tive, Earth-quake Spec-tra 1 (4) (1985) 759--804.
+ []
+
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+[26]
+Missing character: There is no Ã in font txr!
+Missing character: There is no ± in font txr!
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+
+Underfull \hbox (badness 2359) in paragraph at lines 343--347
+[]\OT1/txr/m/n/8 K. A. Small, H. S. Rosen, Ap-plied wel-fare eco-nomics with di
+s-crete choice mod-els, Econo-met-rica 49 (1) (1981) 105--130.
+ []
+
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+) [27] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4026 strings out of 493488
- 57433 string characters out of 3141326
- 117208 words of memory out of 3000000
- 7175 multiletter control sequences out of 15000+200000
- 55252 words of font info for 136 fonts, out of 3000000 for 9000
+ 4222 strings out of 493488
+ 63005 string characters out of 3141326
+ 120196 words of memory out of 3000000
+ 7351 multiletter control sequences out of 15000+200000
+ 59979 words of font info for 147 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,12n,31p,1620b,366s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/20
-12/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2012/texm
-f-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2012/texmf-dist/
-fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
-ype1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/t
-imes/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri
-8a.pfb>
-Output written on main.pdf (22 pages, 9951613 bytes).
+ 38i,12n,31p,1890b,503s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </Users/mahaliamiller/Library/texlive/2012/texmf-var/fonts/pk/ljfour/public/
+bbm/bbm10.600pk>{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc
+}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2012/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/
+type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on main.pdf (27 pages, 11400795 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
+ 381 PDF objects out of 1000 (max. 8388607)
+ 276 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

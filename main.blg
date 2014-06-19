@@ -4,45 +4,47 @@ The top-level auxiliary file: main.aux
 The style file: elsarticle-num.bst
 Database file #1: newfile.bib
 Warning--empty pages in khazai_social_2011
-You've used 28 entries,
+Warning--empty pages in baker_introducing_2008
+Warning--empty pages in davidson_ct-ramp_2010
+You've used 76 entries,
             2937 wiz_defined-function locations,
-            839 strings with 10394 characters,
-and the built_in function-call counts, 7842 in all, are:
-= -- 766
-> -- 211
-< -- 1
-+ -- 89
-- -- 61
-* -- 577
-:= -- 1056
-add.period$ -- 42
-call.type$ -- 28
-change.case$ -- 25
+            1100 strings with 19734 characters,
+and the built_in function-call counts, 21606 in all, are:
+= -- 2162
+> -- 611
+< -- 7
++ -- 254
+- -- 178
+* -- 1539
+:= -- 2908
+add.period$ -- 113
+call.type$ -- 76
+change.case$ -- 82
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 215
-empty$ -- 925
-format.name$ -- 78
-if$ -- 2043
+cite$ -- 79
+duplicate$ -- 631
+empty$ -- 2475
+format.name$ -- 227
+if$ -- 5648
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 28
-newline$ -- 107
-num.names$ -- 28
-pop$ -- 173
+int.to.str$ -- 76
+missing$ -- 64
+newline$ -- 274
+num.names$ -- 78
+pop$ -- 449
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 507
+skip$ -- 1455
 stack$ -- 0
-substring$ -- 426
-swap$ -- 52
-text.length$ -- 1
+substring$ -- 1097
+swap$ -- 175
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 57
-width$ -- 30
-write$ -- 257
-(There was 1 warning)
+warning$ -- 3
+while$ -- 158
+width$ -- 78
+write$ -- 701
+(There were 3 warnings)
