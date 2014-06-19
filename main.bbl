@@ -93,7 +93,7 @@ F.~Cavalieri, P.~Franchin, P.~Gehl, B.~Khazai, Quantitative assessment of
 B.~Khazai, B.~Vangelsten, S.~Duzgun, J.~Braun, J.~Daniell, Social impacts of
   emergency shelter provision in the aftermath of earthquakes: Integrating
   social vulnerability in systemic seismic vulnerability analysis, in:
-  Geophysical Research Abstracts, Vol.~13, 2011.
+  Geophysical Research Abstracts, Vol.~13, 2011, pp. 7374--7374.
 
 \bibitem{burton_social_2014}
 C.~G. Burton,
@@ -152,6 +152,10 @@ M.~Miller, J.~Baker, Ground-motion intensity and damage map selection for
 \bibitem{cervero_polycentrism_1997}
 R.~Cervero, K.-L. Wu, {Polycentrism, commuting, and residential location in the
   San Francisco Bay area}, Environment and Planning A 29~(5) (1997) 865--886.
+
+\bibitem{miller_seismic_2014}
+M.~Miller, Seismic risk assessment of complex transportation networks, {PhD}
+  thesis, Stanford University (2014).
 
 \bibitem{boore_ground-motion_2008}
 D.~M. Boore, G.~M. Atkinson, Ground-motion prediction equations for the average
@@ -270,7 +274,7 @@ R.~Lee, A.~S. Kiremidjian, Uncertainty and correlation for loss assessment of
 \bibitem{baker_introducing_2008}
 J.~W. Baker, Introducing correlation among fragility functions for multiple
   components, in: 14th World Conference on Earthquake Engineering, Beijing,
-  {China}, 2008.
+  China, 2008, p.~8.
 
 \bibitem{werner_redars_2006}
 S.~Werner, C.~Taylor, S.~Cho, J.~Lavoie, {REDARS} 2 methodology and software
@@ -379,9 +383,9 @@ P.~Waddell, {UrbanSim:} modeling urban development for land use,
   {\path{doi:10.1080/01944360208976274}}.
 
 \bibitem{davidson_ct-ramp_2010}
-W.~Davidson, P.~Vovsha, J.~Freedman, R.~Donnelly, {CT-RAMP family of
-  activity-based models}, in: Proceedings of the 33rd Australasian Transport
-  Research Forum ({ATRF)}, Canberra, Australia, 2010.
+W.~Davidson, P.~Vovsha, J.~Freedman, R.~Donnelly, {CT-RAMP} family of
+  activity-based models, in: Proceedings of the 33rd Australasian Transport
+  Research Forum ({ATRF)}, Canberra, Australia, 2010, p.~15.
 
 \bibitem{citilabs_cube_2013}
 Citilabs, Cube desktop (2013).
@@ -395,10 +399,6 @@ H.~Wakabayashi, H.~Kameda, {Network performance of highway systems under
   earthquake effects: a case study of the 1989 Loma Prieta earthquake}, in:
   Proceedings {US-Japan} Workshop on Earthquake Disaster Prevention for
   Lifeline Systems, 1992, pp. 215--232.
-
-\bibitem{miller_seismic_2014}
-M.~Miller, Seismic risk assessment of complex transportation networks, {PhD}
-  thesis, Stanford University (2014).
 
 \bibitem{hagberg_exploring_2008}
 A.~A. Hagberg, D.~A. Schult, P.~J. Swart, Exploring network structure,

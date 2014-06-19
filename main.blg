@@ -3,48 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: elsarticle-num.bst
 Database file #1: newfile.bib
-Warning--empty pages in khazai_social_2011
-Warning--empty pages in baker_introducing_2008
-Warning--empty pages in davidson_ct-ramp_2010
 You've used 76 entries,
             2937 wiz_defined-function locations,
-            1100 strings with 19734 characters,
-and the built_in function-call counts, 21606 in all, are:
-= -- 2162
+            1101 strings with 19742 characters,
+and the built_in function-call counts, 21935 in all, are:
+= -- 2208
 > -- 611
-< -- 7
+< -- 10
 + -- 254
 - -- 178
-* -- 1539
-:= -- 2908
+* -- 1549
+:= -- 2939
 add.period$ -- 113
 call.type$ -- 76
 change.case$ -- 82
 chr.to.int$ -- 0
-cite$ -- 79
-duplicate$ -- 631
-empty$ -- 2475
+cite$ -- 76
+duplicate$ -- 650
+empty$ -- 2499
 format.name$ -- 227
-if$ -- 5648
+if$ -- 5744
 int.to.chr$ -- 0
 int.to.str$ -- 76
 missing$ -- 64
 newline$ -- 274
 num.names$ -- 78
-pop$ -- 449
+pop$ -- 448
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1455
+skip$ -- 1486
 stack$ -- 0
-substring$ -- 1097
-swap$ -- 175
-text.length$ -- 7
+substring$ -- 1143
+swap$ -- 194
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 158
+warning$ -- 0
+while$ -- 163
 width$ -- 78
-write$ -- 701
-(There were 3 warnings)
+write$ -- 704
