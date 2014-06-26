@@ -1,18 +1,9 @@
-\begin{figure}
-\centering
-\includegraphics[width=6in]{../FIGS/equity_case.pdf} 
-\caption{Study area: San Francisco Bay Area, CA with specific travel analysis zones (TAZs) used in the case study marked in blue.}
-\label{fig:equity_study_area}
-\end{figure}
-
 \subsection{Case study overview}
 We focus on the San Francisco Bay Area, a seismically-active region, to illustrate our approach (Figure~\ref{fig:equity_study_area}). The area follows a polycentric metropolitan form, with San Francisco as the primary center and other jobs  concentrated in suburban centers, such as Silicon Valley~\cite{cervero_polycentrism_1997}. The region has a wide array of trip patterns for mandatory and non-mandatory trips. Furthermore, trip times and routes vary greatly depending on travel preferences and workplace locations~\cite{cervero_polycentrism_1997}. Thus,  we might expect noticeable disparities between households in the risk of travel time delays due to earthquakes. 
 
 This analysis considers the complex web of roads and transit networks of the case study area. The roads are modeled by a directed graph $G = (V, E)$, where $V$ is a finite set of vertices representing intersections, and the set $E$, whose elements are edges representing road links, is a binary relation on $V$. In this model, $(|V|, |E|)$ = (11,921, 32,858) including centroidal links and $(|V|, |E|)$ = (9,635, 24,404) without. Centroidal links do not correspond to particular physical roads but instead capture more subtle travel flows, such as  from outside the study area or the flow of people to and from some minor local roads. We also model 43 transit networks, as detailed in~\cite{miller_seismic_2014}.
 
-We  model damage from ground shaking intensity to a set of 1743 highway bridges impacting the road and some transit networks, with data provided by the California Department of Transportation (Caltrans), and 1409 structures impacting the rapid transit network, BART, with data provided by that agency. We refer readers to~\cite{miller_seismic_2014} for more details about matching these structures, hereafter called components, to the relevant road and transit networks. 
-%
-% that represent the regional seismic hazard including events arising from the background seismicity which is not considered in the earlier study [18]. Table I lists pertinent information of these 50 scenario earthquakes.
+We  model damage to a set of 1743 highway bridges impacting the road and some transit networks, with data provided by the California Department of Transportation (Caltrans), and 1409 structures impacting the rapid transit network, BART, with data provided by that agency. We refer readers to~\cite{miller_seismic_2014} for more details about matching these structures, hereafter called components, to the relevant road and transit networks.
 
 
 \begin{sidewaysfigure}
@@ -92,7 +83,7 @@ Caltrans also provided other component properties such as length, construction y
 %
 % using the method detailed in \cite{basoz_enhancement_1999} based on The structural capacities of individual bridges are modeled as uncorrelated.
 
-Per ground-motion intensity map, we sample 1 damage maps (e.g., Figure~\ref{fig:four_steps}{(b)}), which each has a realization of the component damage state at each component location according to the fragility function (eq.~\ref{eq:dsfull}). The provided fragility functions do not consider correlation of the structural capacities, but other models could be used~\cite[e.g.,][]{lee_uncertainty_2007}.
+Per ground-motion intensity map, we sample $c$ damage maps for $c \geq 1$ (e.g., Figure~\ref{fig:four_steps}{(b)}), which each has a realization of the component damage state at each component location according to the fragility function (eq.~\ref{eq:dsfull}). The provided fragility functions do not consider correlation of the structural capacities, but other models could be used~\cite[e.g.,][]{lee_uncertainty_2007}.
 
 \paragraph{Transit network damage}
 \label{sec:transitDamage}
@@ -117,7 +108,7 @@ Acc_a = \ln \left[ \sum_{\forall \in C_a} \exp (V_{a(c)}) \right],
 \end{equation}
 where $V_{a(c)}$ is the utility of the $c^{th}$ choice for the $a^{th}$ person for $a = 1, \ldots, A$, and $C_a$ is the choice set for the $a^{th}$ person~\cite{handy_measuring_1997}. Choices refer to travel destinations and the mode of travel (driving, walking, bus, etc.). The units are a dimensionless quantity, $utils$. As an extension, the accessibility values from the previous equation can be converted into equivalent time and dollar amounts using \emph{compensating variation} for cost-benefit studies; for the case study, 0.0134 $utils$ (generic measure of utility) equals the value of one minute per day~\cite{niemeier_accessibility:_1997,small_applied_1981,ory_personal_2013} and we conservatively value one hour of time as approximately \$15~\cite{united_states_department_of_transportation_revised_2011}. In other words, one $util$ is worth approximately \$20 per person per day based on these assumptions. With nearly 7 million people in the region, even small changes in $utils$ lead to large economic losses. Since accessibility measures how easily people can get to the destinations they desire, accessibility is used as one of the measures of human welfare~\cite[e.g.,][]{niemeier_accessibility:_1997}.
 
-%Furthermore, we will consider consider the fixed-demand \emph{travel time increase} performance measure~\cite[e.g.,][]{jayaram_efficient_2010,han_probabilistic_2012}. Travel time increase is the change in the cumulative change in the amount of time every trip takes during a given time period from the pre-earthquake to post-earthquake conditions (one week post-earthquake). An example of this travel time increase for each road segment is shown in Figure~\ref{fig:four_steps}{(c)}.
+Furthermore, we will consider consider the fixed-demand \emph{travel time increase} performance measure~\cite[e.g.,][]{jayaram_efficient_2010,han_probabilistic_2012}. Travel time increase is the change in the cumulative change in the amount of time every trip takes during a given time period from the pre-earthquake to post-earthquake conditions (one week post-earthquake). An example of this travel time increase for each road segment is shown in Figure~\ref{fig:four_steps}{(c)}.
 
 %Finally, we estimate the annual rate, $\lambda$, of exceeding some threshold of network performance. This rate is estimated by summing the occurrence rates of all damage maps in which the performance measure exceeds the threshold: 
 %\begin{equation}
@@ -129,14 +120,15 @@ where $V_{a(c)}$ is the utility of the $c^{th}$ choice for the $a^{th}$ person f
 %The indicator function $\mathbbm{I}$  evaluates to 1 if the argument, $X_{j'} \geq x$, is true, and 0 otherwise.
 %By evaluating $\lambda$ at different threshold values, we derive an exceedance curve, e.g., Figure~\ref{fig:acc_by_TAZ_and_income}). 
 
-Once the chosen performance measure is computed for each damage map, we aim to estimate the exceedance rate of different levels of performance. The annual rate, $\lambda$, of exceeding some threshold of network performance is estimated by summing the occurrence rates of all damage maps in which the performance measure exceeds the threshold: 
+Once the chosen performance measure is computed for each damage map, we aim to estimate the exceedance rate of different levels of performance. The annual rate, \gls{lambda}, of exceeding some threshold of network performance is estimated by summing the occurrence rates of all damage maps in which the performance measure exceeds the threshold: 
 \begin{equation}
 \lambda_{X \geq x} = \sum_{j'=1}^{J} w_{j'} \mathbbm{I}(X_{j'}\geq x)
 \label{eq:exceedance}
 \end{equation}
-where $x$ is an accessibility value threshold of interest and $X_{j'}$ is the accessibility value realization for the $j'^{th}$ damage map. The variable $w_{j'}$ is the occurrence rate of the $j'^{th}$ damage map.% ($w_j = \frac{w_j}{c}$ where $c$ is the number of damage map realizations per ground-motion intensity map). 
+where \gls{x} is a network performance measure threshold of interest and \gls{X_{j'}} is the network performance realization for the $j'^{th}$ damage map. The variable \gls{w}$_{j'}$ is the occurrence rate of the $j'^{th}$ damage map as introduced above.% ($w_j = \frac{w_j}{c}$ where $c$ is the number of damage map realizations per ground-motion intensity map). 
 %The function $\mathbbm{I}$ is an indicator function that evaluates to 1 if the argument, $x_j' \geq x$, is true and 0 otherwise. 
-The indicator function $\mathbbm{I}$  evaluates to 1 if the argument, $X_{j'} \geq x$, is true, and 0 otherwise. By evaluating $\lambda$ at different threshold values, we derive an exceedance curve (e.g., Figure~\ref{fig:acc_by_TAZ_and_income}). 
+The indicator function \gls{indicator}  evaluates to 1 if the argument, $X_{j'} \geq x$, is true, and 0 otherwise.
+By evaluating \gls{lambda} at different threshold values, we derive an exceedance curve (e.g., Figure~\ref{fig:acc_by_TAZ_and_income}). 
 
 %First, we assign travel demand to the transportation network. Then, we compute the cumulative travel time for the $j'^{th}$ network damage map over all trips \gls{T}, which is the set of trips between the different demand origin and destinations chosen when travel demand is assigned to the transportation network. 
 %
@@ -180,12 +172,10 @@ The indicator function $\mathbbm{I}$  evaluates to 1 if the argument, $X_{j'} \g
 
 %\subsection{Model description}
 %We introduce two models to estimate the performance of the transportation network: a high-fidelity model and an efficient model.
-\subsubsection{Implementation}
-We compute accessibility using  \emph{Travel Model One} (version 0.3), an activity-based model used for the official San Francisco Bay Area travel model by the Metropolitan Transportation Commission (MTC), the local metropolitan planning organization (MPO)~\cite{erhardt_mtcs_2012}. It represents the full road network as well as the public transit networks, biking, and walking. Travel demand data consists of the locations of different households in the case study area, their destination preferences and utilities, their number of vehicles, their income and other demographic data~\cite{erhardt_mtcs_2012,ory_personal_2013}. More details can be found in~\cite{waddell_urbansim:_2002}. This data was collected by the MTC from surveys and census information. Thus, we assume that the distributions of travel preferences do not change after an earthquake, although the actual destinations and trips may vary. For example, if a trip takes a very long time after a simulated earthquake, it is less likely that the trip will occur. The result is a \emph{variable} travel demand model. This model uses a combination of Java code called CT-RAMP~\cite{davidson_ct-ramp_2010}, and the Citilabs Cube Voyager and Cube Cluster software programs, which are part of a leading commercial software suite for transportation planning~\cite{erhardt_mtcs_2012}. This model differs from previous representations of this network~\cite[e.g.,][]{jayaram_efficient_2010,wakabayashi_network_1992}, since it includes not only major roads but also local roads and transit lines. We have provided further details about computing mode-destination accessibility using this high-fidelity model in~\cite{miller_seismic_2014}.
 
-This analysis considers 40 interesting and hazard-consistent events, as defined by 40 sets of ground-motion intensity maps, damage maps, and accessibility performance measure realizations. We selected this set of events with the optimization-based procedure we introduced in~\cite{miller_ground-motion_2014}. Readers are referred to~\cite{miller_seismic_2014} for more details about this set of events. 
+\subsection{Description of transportation model}
+The transportation model, \emph{Travel Model One} (version 0.3), is an activity-based model used for the official San Francisco Bay Area travel model by the Metropolitan Transportation Commission (MTC), the local metropolitan planning organization (MPO)~\cite{erhardt_mtcs_2012}. It represents the full road network as well as the public transit networks, biking, and walking. Travel demand data consists of the locations of different households in the case study area, their destination preferences and utilities, their number of vehicles, their income and other demographic data~\cite{erhardt_mtcs_2012,ory_personal_2013}. More details can be found in~\cite{waddell_urbansim:_2002}. This data was collected by the MTC from surveys and census information. Thus, we assume that the distributions of travel preferences do not change after an earthquake, although the actual destinations and trips may vary. For example, if a trip takes a very long time after a simulated earthquake, it is less likely that the trip will occur. The result is a \emph{variable} travel demand model. This model uses a combination of Java code called CT-RAMP~\cite{davidson_ct-ramp_2010}, and the Citilabs Cube Voyager and Cube Cluster software programs, which are part of a leading commercial software suite for transportation planning~\cite{erhardt_mtcs_2012}. This model differs from previous representations of this network~\cite[e.g.,][]{jayaram_efficient_2010,wakabayashi_network_1992}, since it includes not only major roads but also local roads and transit lines. We have provided further details about computing mode-destination accessibility using this high-fidelity model in~\cite{miller_seismic_2014}.
 
-In the following sections, we first compare region-wide results, and then focus on particular characteristics of three communities (Figure~\ref{fig:equity_study_area} shows the study area and three communities). Finally, we discuss generalizable trends.
 %We compute accessibility by xxxx $$
 
 %\subsubsection{Efficient travel model description}
@@ -213,3 +203,4 @@ In the following sections, we first compare region-wide results, and then focus 
 %\subsubsection{Event set selection using optimization}
 %From a large set of ground-motion intensity maps and damage maps, we choose a set of forty maps, using the optimization procedure we proposed in Miller and Baker~\cite{miller_ground-motion_2014}; we chose the fixed-demand travel time delay as the proxy metric, because it is related to travel time delays expected in the high-fidelity model. We then use the high-fidelity model to predict the transportation network impacts of the forty pairs of ground-motion intensity and damage maps. The outcome is forty sets of results for the target performance metric, mode-destination accessibility. Each accessibility value has a corresponding annual rate of occurrence.
 
+In the following sections, we first compare region-wide results, and then focus on particular characteristics of three communities (Figure~\ref{fig:equity_study_area} shows the study area and three communities). Finally, we discuss generalizable trends.

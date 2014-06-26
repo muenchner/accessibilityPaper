@@ -13,7 +13,7 @@ Medium &  \$25,000 - \$45,000 & \$47,334 - \$85,202\\
 High & \$45,000 - \$75,000 & \$85,202 - \$142,004 \\
 Very high & more than \$75,000 & more than \$142,004
 \end{tabular}
-\caption{Income class definitions for the case study region, as defined by the local planning organization, the MTC~\cite{purvis_data_2001,ory_personal_2013} and also translated to current 2104 USD using the consumer price index~\cite{united_states_department_of_labor_guide_2014}.}
+\caption{Income class definitions for the case study region, as defined by the local planning organization, the MTC~\cite{ory_personal_2013} and also translated to current 2104 USD using the consumer price index.}
 \label{tab:incomes}
 \end{table}
 
@@ -27,12 +27,12 @@ We first assess the data availability for each of the segments. Each data point 
 %Thus, by themselves, the results from the other three socio-economic groups may not be fully representative of the true dynamics. However, the other nine socio-economic groups have a more reasonable representation. 
 
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=6in]{FIGS/equity_dataset_count_bars.eps} 
-\caption{Percentage of total number of trips considered in the high-fidelity model by socio-economic group (determined by income class and household car ownership category) for the baseline (pre-earthquake) case.}
-\label{fig:car}
-\end{figure}
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=6in]{FIGS/equity_dataset_count_bars.eps} 
+%\caption{Percentage of total number of trips considered in the high-fidelity model by socio-economic group (determined by income class and household car ownership category) for the baseline (pre-earthquake) case.}
+%\label{fig:car}
+%\end{figure}
 
 
 %maps of socio-economic groups
@@ -76,7 +76,7 @@ We might expect these households with more cars to take longer trips because the
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=5in]{FIGS/equity_trip_distance_income_cars_to_and_from_work.eps} 
+\includegraphics[width=4in]{FIGS/equity_trip_distance_income_cars_to_and_from_work.eps} 
 \caption{Distributions of commute trip length in 10-mile intervals  by a) income class segment, and b) car ownership segment,  (pre-earthquake)}
 \label{fig:lengthIncomeBars}
 \end{figure}
@@ -85,7 +85,7 @@ We might expect these households with more cars to take longer trips because the
 %
 \begin{figure}[h!]
 \centering
-\includegraphics[width=6in]{FIGS/equity_accLength2.eps} 
+\includegraphics[width=4in]{FIGS/equity_accLength2.eps} 
 \caption{Trip length (pre-earthquake) versus change in total accessibility per person per day. Each dot represents one TAZ and the three case study communities, San Francisco financial district, Danville, and Pacifica are marked by \textbf{S}, \textbf{D}, and \textbf{P} respectively.}
 \label{fig:accLength}
 \end{figure}
@@ -95,7 +95,7 @@ We might expect these households with more cars to take longer trips because the
 Second, controlling for car ownership, we see a fairly equitable distribution of risk across income class segments.  For example, by looking at households with fewer workers than cars (middle column of Figure~\ref{fig:acc_by_segment}), the variation from TAZ to TAZ is significantly more striking than the difference across income segments (Figure~\ref{fig:acc_by_segment}{(b,e,h,k)}). Similarly, while trip lengths are slightly longer for higher income households, the differences are subtle (Figure~\ref{fig:lengthIncomeBars}{(a)}).
 
 
-Thus, for a given TAZ, the differences across incomes are not that great. At the same time though, there is an unequal geographic distribution of wealth in the San Francisco Bay Area. Because of this, when we aggregate accessibility risk across TAZs, we see that accessibility risk rises with increasing household income  (Figure~\ref{fig:acc_by_TAZ_and_income}{(b)}). Therefore, even though the poor are generally the most vulnerable to climatological and geophysical hazards and disasters including hurricanes, floods and earthquakes~\cite{fothergill_race_1999},  wealthier households in the San Francisco Bay area are more vulnerable than the other income groups to earthquake-related accessibility risk.
+Thus, for a given TAZ, the differences across incomes are not that great. At the same time though, there is an unequal geographic distribution of wealth in the San Francisco Bay Area. Because of this, when we aggregate accessibility risk across TAZs, we see that accessibility risk rises with increasing household income  (Figure~\ref{fig:acc_by_TAZ_and_income}{(b)}). Therefore, even though the poor are generally the most vulnerable to natural disasters including hurricanes, floods and earthquakes,  wealthier households in the San Francisco Bay area are more vulnerable than the other income groups to earthquake-related accessibility risk.
 
 
 %we observe a gradual increase in expected accessibility losses down a column, such as down the right-hand column, representing households where the number of workers is greater than or equal to the number of cars (Figure~\ref{fig:acc_by_segment}{(c,f,i,l)}). However, this trend is more subtle than the trend with car ownership for a fixed income class.
@@ -143,15 +143,17 @@ Also, we have shown the results for one socio-economic group in Figure~\ref{fig:
 
 
 % loss exceedance curve
-Finally, we can examine the rates of loss exceedance. The annual rate, $\lambda$, of exceeding some threshold of network performance, as captured by change in accessibility, is estimated by summing the occurrence rates of all damage maps in which the performance measure exceeds the threshold: 
-\begin{equation}
-\lambda_{X \geq x} = \sum_{j'=1}^{J} w_{j'} \mathbbm{I}(X_{j'}\geq x)
-\label{eq:exceedance}
-\end{equation}
-where $x$ is an accessibility value threshold of interest and $X_{j'}$ is the accessibility value realization for the $j'^{th}$ damage map. The variable $w_{j'}$ is the occurrence rate of the $j'^{th}$ damage map.% ($w_j = \frac{w_j}{c}$ where $c$ is the number of damage map realizations per ground-motion intensity map). 
-%The function $\mathbbm{I}$ is an indicator function that evaluates to 1 if the argument, $x_j' \geq x$, is true and 0 otherwise. 
-The indicator function $\mathbbm{I}$  evaluates to 1 if the argument, $X_{j'} \geq x$, is true, and 0 otherwise.
-By evaluating $\lambda$ at different threshold values, we derive an exceedance curve, Figure~\ref{fig:acc_by_TAZ_and_income}). This graph shows a similar shape to the loss exceedance curves for other performance metrics for this case study network~\cite{miller_seismic_2014}. Note that the results are primarily valid in the 100 to 2475 year return periods, since this is the range chosen for the map selection optimization problem. As a sense of scale, if we use the average value over all TAZs for this 
+%Finally, we can examine the rates of loss exceedance. The annual rate, $\lambda$, of exceeding some threshold of network performance, as captured by change in accessibility, is estimated by summing the occurrence rates of all damage maps in which the performance measure exceeds the threshold: 
+%\begin{equation}
+%\lambda_{X \geq x} = \sum_{j'=1}^{J} w_{j'} \mathbbm{I}(X_{j'}\geq x)
+%\label{eq:exceedance}
+%\end{equation}
+%where $x$ is an accessibility value threshold of interest and $X_{j'}$ is the accessibility value realization for the $j'^{th}$ damage map. The variable $w_{j'}$ is the occurrence rate of the $j'^{th}$ damage map.% ($w_j = \frac{w_j}{c}$ where $c$ is the number of damage map realizations per ground-motion intensity map). 
+%%The function $\mathbbm{I}$ is an indicator function that evaluates to 1 if the argument, $x_j' \geq x$, is true and 0 otherwise. 
+%The indicator function $\mathbbm{I}$  evaluates to 1 if the argument, $X_{j'} \geq x$, is true, and 0 otherwise.
+%By evaluating $\lambda$ at different threshold values, we derive an exceedance curve, Figure~\ref{fig:acc_by_TAZ_and_income}). This graph shows a similar shape to the loss exceedance curves for other performance metrics for this case study network~\cite{miller_seismic_2014}. Note that the results are primarily valid in the 100 to 2475 year return periods, since this is the range chosen for the map selection optimization problem. As a sense of scale, if we use the average value over all TAZs for this 
+
+Finally, we can examine the rates of loss exceedance (Section~\ref{sec:theoryMet}). Figure~\ref{fig:acc_by_TAZ_and_income} shows a similar shape to the loss exceedance curves for other performance metrics (Section~\ref{sec:metPM}). Note that the results are primarily valid in the 100 to 2475 year return periods, since this is the range chosen for the map selection optimization problem. %As a sense of scale, if we use the average value over all TAZs for this 
 
 Recognizing that the impact varies significantly by TAZ, as indicated by Figure~\ref{fig:acc_by_segment},
 %and the general lognormal shape of the accessibility cumulative distribution functions for a given event (Figure~\ref{fig:xxxx})
@@ -160,7 +162,7 @@ The general trends are corroborated by the loss exceedance curves for these thre
 
 \begin{figure}
 \centering
-\includegraphics[width=5in]{FIGS/equity_acc_loss_curves.eps} 
+\includegraphics[width=4in]{FIGS/equity_acc_loss_curves.eps} 
 \caption{Accessibility annual loss exceedance curve with a comparison by (a) case study TAZs and average over all TAZs and (b) income class; all curves are in $utils$ per person per day for medium income households with fewer cars than workers .}
 \label{fig:acc_by_TAZ_and_income}
 \end{figure}

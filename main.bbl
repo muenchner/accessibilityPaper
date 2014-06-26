@@ -12,13 +12,6 @@ L.~Due{\~n}as-Osorio, J.~I. Craig, B.~J. Goodno, Seismic response of critical
 \newblock \href {http://dx.doi.org/10.1002/eqe.626}
   {\path{doi:10.1002/eqe.626}}.
 
-\bibitem{lee_post-hazard_2011}
-Y.-J. Lee, J.~Song, P.~Gardoni, H.-W. Lim, Post-hazard flow capacity of bridge
-  transportation network considering structural deterioration of bridges,
-  Structure and Infrastructure Engineering 7~(7-8) (2011) 509–521.
-\newblock \href {http://dx.doi.org/10.1080/15732479.2010.493338}
-  {\path{doi:10.1080/15732479.2010.493338}}.
-
 \bibitem{chang_probabilistic_2000}
 S.~E. Chang, M.~Shinozuka, J.~E. Moore, Probabilistic earthquake scenarios:
   Extending risk analysis methodologies to spatially distributed systems,
@@ -50,9 +43,6 @@ K.~J. Tierney, {Business Impacts of the Northridge Earthquake}, Journal of
 P.~Gordon, H.~W. Richardson, B.~Davis, {Transport-related impacts of the
   Northridge earthquake}, National Emergency Training Center, 1998.
 
-\bibitem{united_states_department_of_labor_guide_2014}
-{United States Department of Labor}, Guide to available {CPI} data (2014).
-
 \bibitem{kiremidjian_seismic_2007}
 A.~Kiremidjian, J.~Moore, Y.~Y. Fan, O.~Yazlali, N.~Bas{\"o}z, M.~Williams,
   Seismic risk assessment of transportation network systems, Journal of
@@ -68,9 +58,9 @@ N.~Jayaram, J.~W. Baker, Efficient sampling and data reduction techniques for
   {\path{doi:10.1002/eqe.988}}.
 
 \bibitem{oliveira_concept_2012}
-C.~S. Oliveira, M.~A. Ferreira, F.~M.~d. Sá, The concept of a disruption
-  index: application to the overall impact of the july 9, 1998 faial earthquake
-  (azores islands), Bulletin of Earthquake Engineering 10~(1) (2012) 7--25.
+C.~S. Oliveira, M.~A. Ferreira, F.~M.~d. Sá, {The concept of a disruption
+  index: application to the overall impact of the July 9, 1998 Faial earthquake
+  (Azores islands)}, Bulletin of Earthquake Engineering 10~(1) (2012) 7--25.
 \newblock \href {http://dx.doi.org/10.1007/s10518-011-9333-8}
   {\path{doi:10.1007/s10518-011-9333-8}}.
 
@@ -89,35 +79,12 @@ F.~Cavalieri, P.~Franchin, P.~Gehl, B.~Khazai, Quantitative assessment of
 \newblock \href {http://dx.doi.org/10.1002/eqe.2220}
   {\path{doi:10.1002/eqe.2220}}.
 
-\bibitem{khazai_social_2011}
-B.~Khazai, B.~Vangelsten, S.~Duzgun, J.~Braun, J.~Daniell, Social impacts of
-  emergency shelter provision in the aftermath of earthquakes: Integrating
-  social vulnerability in systemic seismic vulnerability analysis, in:
-  Geophysical Research Abstracts, Vol.~13, 2011, pp. 7374--7374.
-
-\bibitem{burton_social_2014}
-C.~G. Burton,
-  \href{http://www.globalquakemodel.org/what/physical-integrated-risk/socio-economic-vulnerability/}{Social
-  vulnerability} (2014).
-\newline\urlprefix\url{http://www.globalquakemodel.org/what/physical-integrated-risk/socio-economic-vulnerability/}
-
-\bibitem{unwin_town_1909}
-R.~Unwin, Town planning in practice: An introduction to the art of designing
-  cities and suburbs, T. Fisher Unwin, 1909.
-
 \bibitem{chapin_urban_1970}
 F.~S. Chapin, Urban land use planning, University of Illinois Press, 1970.
 
 \bibitem{niemeier_accessibility:_1997}
 D.~A. Niemeier, Accessibility: an evaluation using consumer welfare,
   Transportation 24~(4) (1997) 377–396.
-
-\bibitem{kennedy_comparison_2002}
-C.~A. Kennedy, A comparison of the sustainability of public and private
-  transportation systems: Study of the greater toronto area, Transportation
-  29~(4) (2002) 459--493.
-\newblock \href {http://dx.doi.org/10.1023/A:1016302913909}
-  {\path{doi:10.1023/A:1016302913909}}.
 
 \bibitem{geurs_accessibility_2004}
 K.~T. Geurs, B.~van Wee, Accessibility evaluation of land-use and transport
@@ -136,13 +103,6 @@ I.~Hernandez-Fajardo, L.~Due{\~n}as-Osorio, Probabilistic study of cascading
   \& System Safety 111 (2013) 260--272.
 \newblock \href {http://dx.doi.org/10.1016/j.ress.2012.10.012}
   {\path{doi:10.1016/j.ress.2012.10.012}}.
-
-\bibitem{hernandez-fajardo_sequential_2011}
-I.~Hernandez-Fajardo, L.~Due{\~n}as-Osorio, Sequential propagation of seismic
-  fragility across interdependent lifeline systems, Earthquake Spectra 27~(1)
-  (2011) 23--43.
-\newblock \href {http://dx.doi.org/10.1193/1.3544052}
-  {\path{doi:10.1193/1.3544052}}.
 
 \bibitem{miller_ground-motion_2014}
 M.~Miller, J.~Baker, Ground-motion intensity and damage map selection for
@@ -182,12 +142,6 @@ K.~W. Campbell, Y.~Bozorgnia, {NGA} ground motion model for the geometric mean
   24~(1) (2008) 139--171.
 \newblock \href {http://dx.doi.org/10.1193/1.2857546}
   {\path{doi:10.1193/1.2857546}}.
-
-\bibitem{campbell_strong_1985}
-K.~W. Campbell, Strong motion attenuation relations: A ten-year perspective,
-  Earthquake Spectra 1~(4) (1985) 759--804.
-\newblock \href {http://dx.doi.org/10.1193/1.1585292}
-  {\path{doi:10.1193/1.1585292}}.
 
 \bibitem{baker_which_2006}
 J.~W. Baker, C.~A. Cornell, Which spectral acceleration are you using?,
@@ -230,13 +184,6 @@ M.~Shinozuka, Y.~Murachi, X.~Dong, Y.~Zhou, M.~J. Orlikowski, Effect of seismic
 \newblock \href {http://dx.doi.org/10.1007/s11803-003-0001-0}
   {\path{doi:10.1007/s11803-003-0001-0}}.
 
-\bibitem{konakli_simulation_2012}
-K.~Konakli, A.~Der~Kiureghian, Simulation of spatially varying ground motions
-  including incoherence, wave-passage and differential site-response effects,
-  Earthquake Engineering \& Structural Dynamics 41~(3) (2012) 495--513.
-\newblock \href {http://dx.doi.org/10.1002/eqe.1141}
-  {\path{doi:10.1002/eqe.1141}}.
-
 \bibitem{field_uniform_2009}
 E.~H. Field, T.~E. Dawson, K.~R. Felzer, A.~D. Frankel, V.~Gupta, T.~H. Jordan,
   T.~Parsons, M.~D. Petersen, R.~S. Stein, R.~J. Weldon, C.~J. Wills, {Uniform
@@ -257,24 +204,16 @@ N.~Bas{\"o}z, J.~Mander, Enhancement of the highway transportation lifeline
   module in {HAZUS}, Tech. rep., Final Pre-Publication Draft (\#7) prepared for
   the National Institute of Building Sciences ({NIBS)} (1999).
 
-\bibitem{ramanathan_analytical_2010}
-K.~Ramanathan, R.~{DesRoches}, J.~Padgett, Analytical fragility curves for
-  multispan continuous steel girder bridges in moderate seismic zones,
-  Transportation Research Record: Journal of the Transportation Research Board
-  2202~(-1) (2010) 173--182.
-\newblock \href {http://dx.doi.org/10.3141/2202-21}
-  {\path{doi:10.3141/2202-21}}.
+\bibitem{ramanathan_next_2012}
+K.~N. Ramanathan, Next generation seismic fragility curves for {California}
+  bridges incorporating the evolution in seismic design philosophy, {PhD}
+  thesis, Georgia Institute of Technology (2012).
 
 \bibitem{lee_uncertainty_2007}
 R.~Lee, A.~S. Kiremidjian, Uncertainty and correlation for loss assessment of
   spatially distributed systems, Earthquake Spectra 23~(4) (2007) 753--770.
 \newblock \href {http://dx.doi.org/10.1193/1.2791001}
   {\path{doi:10.1193/1.2791001}}.
-
-\bibitem{baker_introducing_2008}
-J.~W. Baker, Introducing correlation among fragility functions for multiple
-  components, in: 14th World Conference on Earthquake Engineering, Beijing,
-  China, 2008, p.~8.
 
 \bibitem{werner_redars_2006}
 S.~Werner, C.~Taylor, S.~Cho, J.~Lavoie, {REDARS} 2 methodology and software
@@ -290,11 +229,6 @@ Caltrans, {Caltrans Seismic Design Criteria Version 1.7}, Tech. Rep. {SDC} 1.7,
   Francisco Bay Area Rapid Transit District, San Francisco Bay Area Rapid
   Transit District Earthquake Safety Program (2008).
 
-\bibitem{ramanathan_next_2012}
-K.~N. Ramanathan, Next generation seismic fragility curves for {California}
-  bridges incorporating the evolution in seismic design philosophy, {PhD}
-  thesis, Georgia Institute of Technology (2012).
-
 \bibitem{kurtz_time-varying_2014}
 N.~Kurtz, J.~Song, P.~Gardoni, Time-varying seismic reliability analysis of
   representative {US} west coast bridge transportation networks, in:
@@ -303,11 +237,12 @@ N.~Kurtz, J.~Song, P.~Gardoni, Time-varying seismic reliability analysis of
   Press, 2014, pp. 655--662.
 
 \bibitem{ghosh_seismic_2013}
-J.~Ghosh, K.~Rokneddin, J.~E. Padgett, L.~{Dueñas–Osorio}, Seismic
-  reliability assessment of aging highway bridge networks with field
-  instrumentation data and correlated failures. i: Methodology, Earthquake
-  Spectra\href {http://dx.doi.org/10.1193/040512eqs155m}
-  {\path{doi:10.1193/040512eqs155m}}.
+J.~Ghosh, K.~Rokneddin, J.~E. Padgett, L.~Dueñas-Osorio, {Seismic reliability
+  assessment of aging highway bridge networks with field instrumentation data
+  and correlated failures. I: Methodology}, Earthquake Spectra 30~(2) (2013)
+  795--817.
+\newblock \href {http://dx.doi.org/10.1193/040512EQS155M}
+  {\path{doi:10.1193/040512EQS155M}}.
 
 \bibitem{pugh_construction_2012}
 S.~Pugh, Construction statistics, Tech. rep., California Department of
@@ -321,13 +256,6 @@ K.~Kockelman, {Travel Behavior as Function of Accessibility, Land Use Mixing,
 \newblock \href {http://dx.doi.org/10.3141/1607-16}
   {\path{doi:10.3141/1607-16}}.
 
-\bibitem{vasconcellos_rural_1997}
-E.~A. Vasconcellos, Rural transport and access to education in developing
-  countries: policy issues, Journal of Transport Geography 5~(2) (1997)
-  127--136.
-\newblock \href {http://dx.doi.org/10.1016/S0966-6923(96)00075-0}
-  {\path{doi:10.1016/S0966-6923(96)00075-0}}.
-
 \bibitem{waddell_incorporating_2002}
 P.~Waddell, F.~Nourzad, Incorporating nonmotorized mode and neighborhood
   accessibility in an integrated land use and transportation model system,
@@ -335,9 +263,6 @@ P.~Waddell, F.~Nourzad, Incorporating nonmotorized mode and neighborhood
   1805~(-1) (2002) 119--127.
 \newblock \href {http://dx.doi.org/10.3141/1805-14}
   {\path{doi:10.3141/1805-14}}.
-
-\bibitem{small_urban_1992}
-K.~A. Small, Urban Transportation Economics, Psychology Press, 1992.
 
 \bibitem{manski_structural_1981}
 C.~F. Manski, Structural analysis of discrete data with econometric
@@ -357,18 +282,6 @@ D.~Ory, Personal communication (2013).
   valuation of travel time in economic analysis, {US} Department of
   Transportation, Washington, {DC}.
 
-\bibitem{stergiou_treatment_2006}
-E.~Stergiou, Treatment of uncertainties in seismic risk analysis of
-  transportation systems, Engineer thesis, Stanford University (2006).
-
-\bibitem{shiraki_system_2007}
-N.~Shiraki, M.~Shinozuka, J.~E. Moore, S.~E. Chang, H.~Kameda, S.~Tanaka,
-  System risk curves: Probabilistic performance scenarios for highway networks
-  subject to earthquake damage, Journal of Infrastructure Systems 13~(1) (2007)
-  43--54.
-\newblock \href {http://dx.doi.org/10.1061/(ASCE)1076-0342(2007)13:1(43)}
-  {\path{doi:10.1061/(ASCE)1076-0342(2007)13:1(43)}}.
-
 \bibitem{erhardt_mtcs_2012}
 G.~Erhardt, P.~Brinckerhoff, D.~Ory, A.~Sarvepalli, J.~Freedman, J.~Hood,
   B.~Stabler, {MTC's Travel Model One: applications of an activity-based model
@@ -387,13 +300,6 @@ W.~Davidson, P.~Vovsha, J.~Freedman, R.~Donnelly, {CT-RAMP} family of
   activity-based models, in: Proceedings of the 33rd Australasian Transport
   Research Forum ({ATRF)}, Canberra, Australia, 2010, p.~15.
 
-\bibitem{citilabs_cube_2013}
-Citilabs, Cube desktop (2013).
-
-\bibitem{basoz_risk_1996}
-N.~Bas{\"o}z, A.~Kiremidjian, Risk assessment for highway transportation
-  systems, {PhD} thesis, Stanford University (1996).
-
 \bibitem{wakabayashi_network_1992}
 H.~Wakabayashi, H.~Kameda, {Network performance of highway systems under
   earthquake effects: a case study of the 1989 Loma Prieta earthquake}, in:
@@ -405,16 +311,6 @@ A.~A. Hagberg, D.~A. Schult, P.~J. Swart, Exploring network structure,
   dynamics, and function using {NetworkX}, in: Proceedings of the 7th Python in
   Science Conference ({SciPy2008)}, Pasadena, {CA} {USA}, 2008, p. 11–15.
 
-\bibitem{ory_initial_2012}
-D.~Ory, R.~Singh, Initial examination of volume delay functions using {PeMS}
-  data, memorandum (2012).
-
-\bibitem{national_cooperative_highway_research_program_nchrp_predicting_2005}
-{National Cooperative Highway Research Program ({NCHRP)}}, Predicting air
-  quality effects of traffic-flow improvements: Final report and user's guide,
-  {NCHRP} Report 535, Transportation Research Board, Washington {D.C.} (Jan.
-  2005).
-
 \bibitem{lim_seismic_2014}
 H.-W. Lim, J.~Song, N.~Kurtz, Seismic reliability assessment of lifeline
   networks using clustering-based multi-scale approach, in review (2014).
@@ -425,22 +321,8 @@ P.~Wang, T.~Hunter, A.~M. Bayen, K.~Schechtner, M.~C. G{\'o}nzalez,
 \newblock \href {http://dx.doi.org/10.1038/srep01001}
   {\path{doi:10.1038/srep01001}}.
 
-\bibitem{purvis_data_2001}
-C.~Purvis, Data and analysis methods for metropolitan-level environmental
-  justice assessment, Transportation Research Record: Journal of the
-  Transportation Research Board 1756~(-1) (2001) 15--21.
-\newblock \href {http://dx.doi.org/10.3141/1756-02}
-  {\path{doi:10.3141/1756-02}}.
-
-\bibitem{fothergill_race_1999}
-A.~Fothergill, E.~G.~M. Maestas, J.~D. Darlington, {Race, ethnicity and
-  disasters in the United States: a review of the literature}, Disasters 23~(2)
-  (1999) 156--173.
-\newblock \href {http://dx.doi.org/10.1111/1467-7717.00111}
-  {\path{doi:10.1111/1467-7717.00111}}.
-
 \bibitem{u.s._bureau_of_the_census_united_2010}
-{U.S. Bureau of the Census}, United states census 2010, Tech. rep., {U.S.}
+{U.S. Bureau of the Census}, {United States Census 2010}, Tech. rep., {U.S.}
   Census Bureau, Washington {D.C.} (2010).
 
 \end{thebibliography}
