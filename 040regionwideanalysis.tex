@@ -20,7 +20,7 @@ Very high & more than \$75,000 & more than \$142,004
 
 %These are classified by the income class and the relative number of vehicles (``cars'') to the number of household members that work as follows: a) low income, no cars, b) low income, workers $<$ cars, c) low income, workers $\geq$ cars, d) medium income, no cars, e) medium income, workers $<$ cars, cf) medium income, workers $\geq$ cars, g) high income, no cars, h) high income, workers $<$ cars, i) high income, workers $\geq$ cars, j) very high income, no cars, k) very high income, workers $<$ cars, and l) very high income, workers $\geq$ cars. Note, that very high income corresponds to households with a combined income of greater than \$142,004 USD (2014). Thus, for a given household, we can classify it into a socio-economic group by knowing the income class and the ratio of number of people working to the number of vehicles.
 
-We first assess the data availability for each of the segments. Each data point represents a trip by a person of a household, who is  modeled as an agent in the high-fidelity transportation model. The results suggest comparing households with at least one car, because for households without cars (no cars), only the low income class has reasonably many trips (Figure~\ref{fig:car}). 
+We first assess the data availability for each of the segments. Each data point represents a trip by a person of a household, who is  modeled as an agent in the high-fidelity transportation model. The results suggest comparing households with at least one car, because for households without cars (no cars), only the low income class has reasonably many trips. 
 
 %For the other income classes, the corresponding socio-economic groups of no car households is very small. 
 
@@ -70,16 +70,16 @@ The expected losses are computed by taking an average of the accessibility resul
 First, we notice that the ratio of cars to the number of people who work in a household is  correlated with accessibility risk; a higher ratio corresponds to higher expected decreases in accessibility. This corresponds to going across a column in Figure~\ref{fig:acc_by_segment}. For example, for the first row representing low income households, 
  we notice a marked change in accessibility across the columns, as indicated by an expanded area of darkened TAZs from left to right (Figure~\ref{fig:acc_by_segment}{(a-c)}). Note that 1 $util$ corresponds to a consumer value of compensating variation of approximately \$20 per person per day, which assumes low (conservative) estimates of the value of time for travel delays and value of getting to destinations. 
  
-We might expect these households with more cars to take longer trips because there might be a relationship between needing to travel longer distances and needing an extra car or two in a household. This is indeed the case (Figure~\ref{fig:lengthIncomeBars}{(b)}), but it is not fully predictive. In fact, there is only a weak trend between average trip length for a TAZ before any earthquake and the predicted impact on accessibility (Figure~\ref{fig:accLength}). Instead, we hypothesize that there are other latent variables correlated with car ownership. For example, the geographic distribution of people without cars varies. Additionally, in Section~\ref{sec:accDisc}, we will further explore the correlation between the percentage of car-based trips and accessibility risk. We will show that TAZs with fewer car-based trips, tend to have lower risk of accessibility losses.
+We might expect these households with more cars to take longer trips because there might be a relationship between needing to travel longer distances and needing an extra car or two in a household. This is indeed the case, but it is not fully predictive. In fact, there is only a weak trend between average trip length for a TAZ before any earthquake and the predicted impact on accessibility (Figure~\ref{fig:accLength}). Instead, we hypothesize that there are other latent variables correlated with car ownership. For example, the geographic distribution of people without cars varies. Additionally, in Section~\ref{sec:accDisc}, we will further explore the correlation between the percentage of car-based trips and accessibility risk. We will show that TAZs with fewer car-based trips, tend to have lower risk of accessibility losses.
 
 
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=4in]{FIGS/equity_trip_distance_income_cars_to_and_from_work.eps} 
-\caption{Distributions of commute trip length in 10-mile intervals  by a) income class segment, and b) car ownership segment,  (pre-earthquake)}
-\label{fig:lengthIncomeBars}
-\end{figure}
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[width=4in]{FIGS/equity_trip_distance_income_cars_to_and_from_work.eps} 
+%\caption{Distributions of commute trip length in 10-mile intervals  by a) income class segment, and b) car ownership segment,  (pre-earthquake)}
+%\label{fig:lengthIncomeBars}
+%\end{figure}
 
 %\subsection{Impact of trip length}
 %
@@ -92,7 +92,7 @@ We might expect these households with more cars to take longer trips because the
 
 
 
-Second, controlling for car ownership, we see a fairly equitable distribution of risk across income class segments.  For example, by looking at households with fewer workers than cars (middle column of Figure~\ref{fig:acc_by_segment}), the variation from TAZ to TAZ is significantly more striking than the difference across income segments (Figure~\ref{fig:acc_by_segment}{(b,e,h,k)}). Similarly, while trip lengths are slightly longer for higher income households, the differences are subtle (Figure~\ref{fig:lengthIncomeBars}{(a)}).
+Second, controlling for car ownership, we see a fairly equitable distribution of risk across income class segments.  For example, by looking at households with fewer workers than cars (middle column of Figure~\ref{fig:acc_by_segment}), the variation from TAZ to TAZ is significantly more striking than the difference across income segments (Figure~\ref{fig:acc_by_segment}{(b,e,h,k)}). Similarly, while trip lengths are slightly longer for higher income households, the differences are subtle. % (Figure~\ref{fig:lengthIncomeBars}{(a)}).
 
 
 Thus, for a given TAZ, the differences across incomes are not that great. At the same time though, there is an unequal geographic distribution of wealth in the San Francisco Bay Area. Because of this, when we aggregate accessibility risk across TAZs, we see that accessibility risk rises with increasing household income  (Figure~\ref{fig:acc_by_TAZ_and_income}{(b)}). Therefore, even though the poor are generally the most vulnerable to natural disasters including hurricanes, floods and earthquakes,  wealthier households in the San Francisco Bay area are more vulnerable than the other income groups to earthquake-related accessibility risk.
@@ -153,8 +153,7 @@ Also, we have shown the results for one socio-economic group in Figure~\ref{fig:
 %The indicator function $\mathbbm{I}$  evaluates to 1 if the argument, $X_{j'} \geq x$, is true, and 0 otherwise.
 %By evaluating $\lambda$ at different threshold values, we derive an exceedance curve, Figure~\ref{fig:acc_by_TAZ_and_income}). This graph shows a similar shape to the loss exceedance curves for other performance metrics for this case study network~\cite{miller_seismic_2014}. Note that the results are primarily valid in the 100 to 2475 year return periods, since this is the range chosen for the map selection optimization problem. As a sense of scale, if we use the average value over all TAZs for this 
 
-Finally, we can examine the rates of loss exceedance (Section~\ref{sec:theoryMet}). Figure~\ref{fig:acc_by_TAZ_and_income} shows a similar shape to the loss exceedance curves for other performance metrics (Section~\ref{sec:metPM}). Note that the results are primarily valid in the 100 to 2475 year return periods, since this is the range chosen for the map selection optimization problem. %As a sense of scale, if we use the average value over all TAZs for this 
-
+Finally, we can examine the rates of loss exceedance (Equation~\ref{eq:exceedance}). Figure~\ref{fig:acc_by_TAZ_and_income} shows a similar shape to the loss exceedance curves for other metrics such as portfolio losses and travel time delay~\cite{miller_seismic_2014}. Note that the results are primarily valid in the 100 to 2475 year return periods, since this is the range chosen for the map selection optimization problem. %As a sense of scale, if we use the average value over all TAZs for this 
 Recognizing that the impact varies significantly by TAZ, as indicated by Figure~\ref{fig:acc_by_segment},
 %and the general lognormal shape of the accessibility cumulative distribution functions for a given event (Figure~\ref{fig:xxxx})
 we also examine the accessibility loss exceedance curve for three communities: part of the San Francisco financial district, Danville, and Pacifica (Figure~\ref{fig:equity_study_area}). These correspond to TAZ IDs 2, 1161, and 224 respectively. This part of the San Francisco financial district  represents an area with relatively low expected changes in accessibility (Figure~\ref{fig:acc_by_segment}), whereas Danville and Pacifica are at an elevated risk in almost all socio-economic groups (Figure~\ref{fig:acc_by_segment}). 
