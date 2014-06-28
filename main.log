@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  26 JUN 2014 15:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  27 JUN 2014 09:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -857,6 +857,9 @@ Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¡ in font txr!
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
  [18
 
 ]
@@ -866,17 +869,15 @@ Missing character: There is no “ in font txr!
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
 Missing character: There is no Ã in font txr!
 Missing character: There is no ± in font txr!
- [19]
+
 Underfull \hbox (badness 2359) in paragraph at lines 272--276
 []\OT1/txr/m/n/8 K. A. Small, H. S. Rosen, Ap-plied wel-fare eco-nomics with di
 s-crete choice mod-els, Econo-met-rica 49 (1) (1981) 105--130.
  []
 
+[19]
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
@@ -892,7 +893,7 @@ Here is how much of TeX's memory you used:
  7266 multiletter control sequences out of 15000+200000
  59811 words of font info for 146 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,12n,31p,1794b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,12n,31p,1952b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
  </Users/mahaliamiller/Library/texlive/2012/texmf-var/fonts/pk/ljfour/public/
 bbm/bbm10.600pk>{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc
 }</usr/local/texlive/2012/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/
@@ -904,7 +905,7 @@ st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2012/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on main.pdf (20 pages, 10640682 bytes).
+Output written on main.pdf (20 pages, 10639881 bytes).
 PDF statistics:
  276 PDF objects out of 1000 (max. 8388607)
  204 compressed objects within 3 object streams
