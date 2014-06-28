@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  27 JUN 2014 09:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 JUN 2014 15:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -712,39 +712,36 @@ Overfull \vbox (49.74303pt too high) has occurred while \output is active []
 
 [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./elsevier-logo-3p.pdf> <./SDlogo-3p.pdf>]) [2] (./030framework.tex
+ <./elsevier-logo-3p.pdf> <./SDlogo-3p.pdf>]) (./030framework.tex
 
 pdfTeX warning: /usr/texbin/pdflatex (file ../FIGS/equity_case.pdf): PDF inclus
 ion: found PDF version <1.6>, but at most version <1.5> allowed
-<../FIGS/equity_case.pdf, id=26, 433.62pt x 597.73552pt>
+<../FIGS/equity_case.pdf, id=22, 433.62pt x 597.73552pt>
 File: ../FIGS/equity_case.pdf Graphic file (type pdf)
 
 <use ../FIGS/equity_case.pdf>
 Package pdftex.def Info: ../FIGS/equity_case.pdf used on input line 3.
 (pdftex.def)             Requested size: 433.62pt x 597.76141pt.
-
+ [2] [3 <../FIGS/equity_case.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ../FIGS/Mahalia_four_pannels204v5.pd
 f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../FIGS/Mahalia_four_pannels204v5.pdf, id=27, 751.29504pt x 325.215pt>
+<../FIGS/Mahalia_four_pannels204v5.pdf, id=55, 751.29504pt x 325.215pt>
 File: ../FIGS/Mahalia_four_pannels204v5.pdf Graphic file (type pdf)
 
 <use ../FIGS/Mahalia_four_pannels204v5.pdf>
 Package pdftex.def Info: ../FIGS/Mahalia_four_pannels204v5.pdf used on input li
 ne 20.
 (pdftex.def)             Requested size: 622.0pt x 269.25845pt.
- [3
-
-] [4 <../FIGS/equity_case.pdf>]
-[5 <../FIGS/Mahalia_four_pannels204v5.pdf>]
+ [4] [5 <../FIGS/Mahalia_four_pannels204v5.pdf>]
 
 LaTeX Warning: Reference `fig:bart' on page 6 undefined on input line 73.
 
-[6] [7]
+[6]
 LaTeX Font Info:    Try loading font information for U+bbm on input line 134.
  (/usr/local/texlive/2012/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
-))
+) [7])
 [8] (./040regionwideanalysis.tex
 <FIGS/accByGroup.pdf, id=134, 407.45763pt x 718.46642pt>
 File: FIGS/accByGroup.pdf Graphic file (type pdf)
@@ -872,25 +869,24 @@ Missing character: There is no “ in font txr!
 Missing character: There is no Ã in font txr!
 Missing character: There is no ± in font txr!
 
-Underfull \hbox (badness 2359) in paragraph at lines 272--276
+Underfull \hbox (badness 2359) in paragraph at lines 265--269
 []\OT1/txr/m/n/8 K. A. Small, H. S. Rosen, Ap-plied wel-fare eco-nomics with di
 s-crete choice mod-els, Econo-met-rica 49 (1) (1981) 105--130.
  []
 
-[19]
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-) [20] (./main.aux)
+[19]) [20] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 4132 strings out of 493488
- 59772 string characters out of 3141326
- 119820 words of memory out of 3000000
- 7266 multiletter control sequences out of 15000+200000
+ 4119 strings out of 493488
+ 59377 string characters out of 3141326
+ 119756 words of memory out of 3000000
+ 7253 multiletter control sequences out of 15000+200000
  59811 words of font info for 146 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,12n,31p,1952b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -905,7 +901,7 @@ st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2012/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on main.pdf (20 pages, 10639881 bytes).
+Output written on main.pdf (20 pages, 10639095 bytes).
 PDF statistics:
  276 PDF objects out of 1000 (max. 8388607)
  204 compressed objects within 3 object streams

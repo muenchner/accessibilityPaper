@@ -97,12 +97,9 @@ K.~T. Geurs, B.~van Wee, Accessibility evaluation of land-use and transport
 S.~L. Handy, D.~A. Niemeier, Measuring accessibility: an exploration of issues
   and alternatives, Environment and Planning A 29~(7) (1997) 1175–1194.
 
-\bibitem{hernandez-fajardo_probabilistic_2013}
-I.~Hernandez-Fajardo, L.~Due{\~n}as-Osorio, Probabilistic study of cascading
-  failures in complex interdependent lifeline systems, Reliability Engineering
-  \& System Safety 111 (2013) 260--272.
-\newblock \href {http://dx.doi.org/10.1016/j.ress.2012.10.012}
-  {\path{doi:10.1016/j.ress.2012.10.012}}.
+\bibitem{miller_seismic_2014}
+M.~Miller, Seismic risk assessment of complex transportation networks, {PhD}
+  thesis, Stanford University (2014).
 
 \bibitem{miller_ground-motion_2014}
 M.~Miller, J.~Baker, Ground-motion intensity and damage map selection for
@@ -112,10 +109,6 @@ M.~Miller, J.~Baker, Ground-motion intensity and damage map selection for
 \bibitem{cervero_polycentrism_1997}
 R.~Cervero, K.-L. Wu, {Polycentrism, commuting, and residential location in the
   San Francisco Bay area}, Environment and Planning A 29~(5) (1997) 865--886.
-
-\bibitem{miller_seismic_2014}
-M.~Miller, Seismic risk assessment of complex transportation networks, {PhD}
-  thesis, Stanford University (2014).
 
 \bibitem{boore_ground-motion_2008}
 D.~M. Boore, G.~M. Atkinson, Ground-motion prediction equations for the average
@@ -305,21 +298,6 @@ H.~Wakabayashi, H.~Kameda, {Network performance of highway systems under
   earthquake effects: a case study of the 1989 Loma Prieta earthquake}, in:
   Proceedings {US-Japan} Workshop on Earthquake Disaster Prevention for
   Lifeline Systems, 1992, pp. 215--232.
-
-\bibitem{hagberg_exploring_2008}
-A.~A. Hagberg, D.~A. Schult, P.~J. Swart, Exploring network structure,
-  dynamics, and function using {NetworkX}, in: Proceedings of the 7th Python in
-  Science Conference ({SciPy2008)}, Pasadena, {CA} {USA}, 2008, p. 11–15.
-
-\bibitem{lim_seismic_2014}
-H.-W. Lim, J.~Song, N.~Kurtz, Seismic reliability assessment of lifeline
-  networks using clustering-based multi-scale approach, in review (2014).
-
-\bibitem{wang_understanding_2012}
-P.~Wang, T.~Hunter, A.~M. Bayen, K.~Schechtner, M.~C. G{\'o}nzalez,
-  Understanding road usage patterns in urban areas, Scientific Reports 2.
-\newblock \href {http://dx.doi.org/10.1038/srep01001}
-  {\path{doi:10.1038/srep01001}}.
 
 \bibitem{u.s._bureau_of_the_census_united_2010}
 {U.S. Bureau of the Census}, {United States Census 2010}, Tech. rep., {U.S.}
