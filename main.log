@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  30 JUN 2014 15:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  1 JUL 2014 11:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -800,31 +800,28 @@ erted-to.pdf>]
 (./050sf.tex) (./060pacifica.tex) (./070danville.tex [14
 
 ]) (./080discussion.tex
-Package epstopdf Info: Source file: <FIGS/equity_bart_bridges_acc3.eps>
-(epstopdf)                    date: 2014-06-30 15:02:49
-(epstopdf)                    size: 13635 bytes
-(epstopdf)             Output file: <FIGS/equity_bart_bridges_acc3-eps-converte
-d-to.pdf>
+Package epstopdf Info: Source file: <FIGS/equity_bart_bridges_acc3vJWBv4.eps>
+(epstopdf)                    date: 2014-07-01 11:15:41
+(epstopdf)                    size: 16478 bytes
+(epstopdf)             Output file: <FIGS/equity_bart_bridges_acc3vJWBv4-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2014-07-01 11:39:04
+(epstopdf)                    size: 16115 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGS/equity_bart_bridges_a
-cc3-eps-converted-to.pdf FIGS/equity_bart_bridges_acc3.eps>
+cc3vJWBv4-eps-converted-to.pdf FIGS/equity_bart_bridges_acc3vJWBv4.eps>
 (epstopdf)             \includegraphics on input line 80.
-runsystem(repstopdf --outfile=FIGS/equity_bart_bridges_acc3-eps-converted-to.pd
-f FIGS/equity_bart_bridges_acc3.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <FIGS/equity_bart_bridges_acc3-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2014-06-30 15:04:39
-(epstopdf)                    size: 13373 bytes.
-
-<FIGS/equity_bart_bridges_acc3-eps-converted-to.pdf, id=172, 367.3725pt x 314.1
-7375pt>
-File: FIGS/equity_bart_bridges_acc3-eps-converted-to.pdf Graphic file (type pdf
-)
- <use FIGS/equity_bart_bridges_acc3-eps-converted-to.pdf>
-Package pdftex.def Info: FIGS/equity_bart_bridges_acc3-eps-converted-to.pdf use
-d on input line 80.
+<FIGS/equity_bart_bridges_acc3vJWBv4-eps-converted-to.pdf, id=172, 367.3725pt x
+ 314.17375pt>
+File: FIGS/equity_bart_bridges_acc3vJWBv4-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use FIGS/equity_bart_bridges_acc3vJWBv4-eps-converted-to.pdf>
+Package pdftex.def Info: FIGS/equity_bart_bridges_acc3vJWBv4-eps-converted-to.p
+df used on input line 80.
 (pdftex.def)             Requested size: 361.34999pt x 309.04349pt.
- [15]
+
+[15]
 Package epstopdf Info: Source file: <FIGS/equity_footVsAccv3.eps>
 (epstopdf)                    date: 2014-06-30 13:28:26
 (epstopdf)                    size: 90062 bytes
@@ -844,8 +841,9 @@ File: FIGS/equity_footVsAccv3-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: FIGS/equity_footVsAccv3-eps-converted-to.pdf used on i
 nput line 122.
 (pdftex.def)             Requested size: 361.34999pt x 291.19247pt.
-) [16] [17 <./FIGS/equity_bart_bridges_acc3-eps-converted-to.pdf>] [18 <./FIGS/
-equity_footVsAccv3-eps-converted-to.pdf>] (./090conclusion.tex) (./main.bbl
+) [16] [17 <./FIGS/equity_bart_bridges_acc3vJWBv4-eps-converted-to.pdf>] [18 <.
+/FIGS/equity_footVsAccv3-eps-converted-to.pdf>] (./090conclusion.tex) (./main.b
+bl
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
@@ -874,7 +872,7 @@ s-crete choice mod-els, Econo-met-rica 49 (1) (1981) 105--130.
 [20]) [21] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  4115 strings out of 493488
- 59397 string characters out of 3141326
+ 59427 string characters out of 3141326
  119756 words of memory out of 3000000
  7251 multiletter control sequences out of 15000+200000
  57872 words of font info for 143 fonts, out of 3000000 for 9000
@@ -891,7 +889,7 @@ l/texlive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texli
 ve/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/f
 onts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (21 pages, 11111315 bytes).
+Output written on main.pdf (21 pages, 11114056 bytes).
 PDF statistics:
  248 PDF objects out of 1000 (max. 8388607)
  174 compressed objects within 2 object streams
