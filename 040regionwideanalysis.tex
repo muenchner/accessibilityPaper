@@ -1,6 +1,6 @@
-In this section, we analyze region-wide trends in accessibility losses for the case study area. We first analyze each of the 12 socio-economic groups used in practice for the case study region~\cite{ory_personal_2013}. These socio-economic groups correspond to all combinations of four different income classes (Table~\ref{tab:incomes}),
+In this section, we analyze region-wide trends in accessibility losses for the case study area. We first analyze each of the 12 socio-economic groups used in practice for the case study region~\cite{ory_personal_2013}. These socio-economic groups correspond to all combinations of four income classes (Table~\ref{tab:incomes}),
 %(low (0 - \$25,000 in 1989 USD, 0 - \$47,334 in 2014 USD), medium (\$25,000 - \$45,000 in 1989 USD, \$47,334 - \$85,202 in 2014 USD), high (\$45,000 - \$75,000 in 1989 USD, \$85,202 - \$142,004 in 2014 USD), very high (more than \$75,000 in 1989 USD, \$142,004 in 2014 USD)), 
-and three different classes of automobile availability in the household (zero automobiles, fewer automobiles than household members that work, a greater or equal number of automobiles as compared to the number of household members that work).
+and three classes of automobile availability in the household (zero automobiles, fewer automobiles than household members that work, as many or more automobiles than household members that work). Each data point for analysis represents a trip by a person of a household from one of these segments, who is  modeled as an agent in the high-fidelity transportation model.
 
 
 \begin{table}
@@ -13,14 +13,14 @@ Medium &  \$25,000 - \$45,000 & \$47,334 - \$85,202\\
 High & \$45,000 - \$75,000 & \$85,202 - \$142,004 \\
 Very high & more than \$75,000 & more than \$142,004
 \end{tabular}
-\caption{Income class definitions for the case study region, as defined by the local planning organization, the MTC~\cite{ory_personal_2013} and also translated to current 2104 USD using the consumer price index.}
+\caption{Income class definitions for the case study region, as defined by the local planning organization, the MTC~\cite{ory_personal_2013} and also translated to current 2014 USD using the consumer price index.}
 \label{tab:incomes}
 \end{table}
 
 
 %These are classified by the income class and the relative number of vehicles (``cars'') to the number of household members that work as follows: a) low income, no cars, b) low income, workers $<$ cars, c) low income, workers $\geq$ cars, d) medium income, no cars, e) medium income, workers $<$ cars, cf) medium income, workers $\geq$ cars, g) high income, no cars, h) high income, workers $<$ cars, i) high income, workers $\geq$ cars, j) very high income, no cars, k) very high income, workers $<$ cars, and l) very high income, workers $\geq$ cars. Note, that very high income corresponds to households with a combined income of greater than \$142,004 USD (2014). Thus, for a given household, we can classify it into a socio-economic group by knowing the income class and the ratio of number of people working to the number of vehicles.
 
-We first assess the data availability for each of the segments. Each data point represents a trip by a person of a household, who is  modeled as an agent in the high-fidelity transportation model. The results suggest comparing households with at least one car, because for households without cars (no cars), only the low income class has reasonably many trips. 
+%We first assess the data availability for each of the segments. Each data point represents a trip by a person of a household, who is  modeled as an agent in the high-fidelity transportation model. The results suggest comparing households with at least one car, because for households without cars (no cars), only the low income class has reasonably many trips. 
 
 %For the other income classes, the corresponding socio-economic groups of no car households is very small. 
 
@@ -58,7 +58,7 @@ We first assess the data availability for each of the segments. Each data point 
 %             (j)  very high, no cars & (k)  very high, workers $<$ cars & (l)  very high, workers $\geq$ cars\\
 %    \end{tabular}
     \includegraphics[height=8in]{FIGS/accByGroup.pdf}
-\caption{Expected changes in accessibility per person per day for each combination of income class and car ownership group. The darker the color, the greater the losses in accessibility.}% (no cars, workers $<$ cars , workers $\geq$ cars }
+\caption{Expected changes in accessibility per person per day for each combination of income class and car ownership group. The darker the color, the greater the losses in accessibility. Low, med., high, and v. high refer to the income  class (low, medium, high, and very high respectively). No cars, cars $<$ workers, cars $>=$ workers refer to the car ownership class (zero automobiles, fewer automobiles than household members that work, as many or more automobiles than household members that work respectively).}% (no cars, workers $<$ cars , workers $\geq$ cars }
 %: a) low income, no cars, b) low income, workers $<$ cars, c) low income, workers $\geq$ cars, d) medium income, no cars, e) medium income, workers $<$ cars, cf) medium income, workers $\geq$ cars, g) high income, no cars, h) high income, workers $<$ cars, i) high income, workers $\geq$ cars, j) very high income, no cars, k) very high income, workers $<$ cars, l) very high income, workers $\geq$ cars}
 \label{fig:acc_by_segment}
 \end{figure*}
@@ -92,7 +92,7 @@ We might expect these households with more cars to take longer trips because the
 
 
 
-Second, controlling for car ownership, we see a fairly equitable distribution of risk across income class segments.  For example, by looking at households with fewer workers than cars (middle column of Figure~\ref{fig:acc_by_segment}), the variation from TAZ to TAZ is significantly more striking than the difference across income segments (Figure~\ref{fig:acc_by_segment}{(b,e,h,k)}). Similarly, while trip lengths are slightly longer for higher income households, the differences are subtle. % (Figure~\ref{fig:lengthIncomeBars}{(a)}).
+Second, controlling for car ownership, we see a fairly consistent distribution of risk across income class segments.  For example, by looking at households with fewer workers than cars (middle column of Figure~\ref{fig:acc_by_segment}), the variation from TAZ to TAZ is significantly more striking than the difference across income segments (Figure~\ref{fig:acc_by_segment}{(b,e,h,k)}). Similarly, while trip lengths are slightly longer for higher income households, the differences are subtle. % (Figure~\ref{fig:lengthIncomeBars}{(a)}).
 
 
 Thus, for a given TAZ, the differences across incomes are not that great. At the same time though, there is an unequal geographic distribution of wealth in the San Francisco Bay Area. Because of this, when we aggregate accessibility risk across TAZs, we see that accessibility risk rises with increasing household income  (Figure~\ref{fig:acc_by_TAZ_and_income}{(b)}). Therefore, even though the poor are generally the most vulnerable to natural disasters including hurricanes, floods and earthquakes,  wealthier households in the San Francisco Bay area are more vulnerable than the other income groups to earthquake-related accessibility risk.
@@ -119,7 +119,7 @@ Also, we have shown the results for one socio-economic group in Figure~\ref{fig:
 %\caption{Expected changes in accessibility for individual scenarios: a) Hayward, M7.05 (medium income, workers $<$ cars), b) San Andreas, M7.05 (medium income, workers $<$ cars), c) San Andreas, M8.25 (medium income, workers $<$ cars)}
 %\label{fig:scen_acc}
 %\end{figure}
-\begin{figure*}[t]
+\begin{figure*}[h!]
     \centering
 %    \begin{tabular}{cc}
 %        \includegraphics[height=0.2\textheight]{../FIGS/bridge_scen_152.eps} &
@@ -159,7 +159,7 @@ Recognizing that the impact varies significantly by TAZ, as indicated by Figure~
 we also examine the accessibility loss exceedance curve for three communities: part of the San Francisco financial district, Danville, and Pacifica (Figure~\ref{fig:equity_study_area}). These correspond to TAZ IDs 2, 1161, and 224 respectively. This part of the San Francisco financial district  represents an area with relatively low expected changes in accessibility (Figure~\ref{fig:acc_by_segment}), whereas Danville and Pacifica are at an elevated risk in almost all socio-economic groups (Figure~\ref{fig:acc_by_segment}). 
 The general trends are corroborated by the loss exceedance curves for these three communities (Figure~\ref{fig:acc_by_TAZ_and_income}{(a)} shows an example for the socio-economic group with medium income households with fewer cars than workers). In other words, the average middle-class person from Danville in a household with fewer cars than people who work is expected to experience travel-related losses up to 1 $utils$ per day after a rare earthquake, which he or she values at approximately \$20 per day considering a conservative estimate of travel time and destination value. In contrast, his or her fellow Bay Area resident in San Francisco has expected losses of only a tenth as much as experienced by a Danville resident. At return periods greater than 100 years, we notice that Danville and Pacifica follow a similar general pattern, which differs dramatically from that of San Francisco. 
 
-\begin{figure}
+\begin{figure}[h!]
 \centering
 \includegraphics[width=4in]{FIGS/equity_acc_loss_curves.eps} 
 \caption{Accessibility annual loss exceedance curve with a comparison by (a) case study TAZs and average over all TAZs and (b) income class; all curves are in $utils$ per person per day for medium income households with fewer cars than workers .}
