@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  1 NOV 2014 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 NOV 2014 16:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -691,19 +691,17 @@ Overfull \vbox (49.74303pt too high) has occurred while \output is active []
 [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./elsevier-logo-3p.pdf> <./SDlogo-3p.pdf>]) (./030framework.tex
-
-pdfTeX warning: /usr/texbin/pdflatex (file ../FIGS/equity_case.pdf): PDF inclus
-ion: found PDF version <1.6>, but at most version <1.5> allowed
-<../FIGS/equity_case.pdf, id=22, 433.62pt x 597.73552pt>
+<../FIGS/equity_case.pdf, id=22, 433.62pt x 597.73515pt>
 File: ../FIGS/equity_case.pdf Graphic file (type pdf)
 
 <use ../FIGS/equity_case.pdf>
 Package pdftex.def Info: ../FIGS/equity_case.pdf used on input line 3.
-(pdftex.def)             Requested size: 325.215pt x 448.31877pt.
+(pdftex.def)             Requested size: 325.215pt x 448.3185pt.
  [2] [3 <../FIGS/equity_case.pdf>]
-<../FIGS/Mahalia_four_pannels204v5_cropped.pdf, id=55, 750.30344pt x 314.167pt>
+<../FIGS/Mahalia_four_pannels204v5_cropped.pdf, id=105, 750.30344pt x 314.167pt
+>
 File: ../FIGS/Mahalia_four_pannels204v5_cropped.pdf Graphic file (type pdf)
-<use ../FIGS/Mahalia_four_pannels204v5_cropped.pdf>
+ <use ../FIGS/Mahalia_four_pannels204v5_cropped.pdf>
 Package pdftex.def Info: ../FIGS/Mahalia_four_pannels204v5_cropped.pdf used on 
 input line 20.
 (pdftex.def)             Requested size: 622.0pt x 260.46133pt.
@@ -714,7 +712,7 @@ LaTeX Font Info:    Try loading font information for U+bbm on input line 134.
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 ) [7])
 (./040regionwideanalysis.tex
-<FIGS/accByGroup.pdf, id=101, 407.45763pt x 718.46642pt>
+<FIGS/accByGroup.pdf, id=151, 407.45763pt x 718.46642pt>
 File: FIGS/accByGroup.pdf Graphic file (type pdf)
 
 <use FIGS/accByGroup.pdf>
@@ -729,18 +727,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8]
 Package epstopdf Info: Source file: <FIGS/equity_accLengthv4.eps>
-(epstopdf)                    date: 2014-06-30 11:26:59
+(epstopdf)                    date: 2014-06-30 20:26:59
 (epstopdf)                    size: 89625 bytes
 (epstopdf)             Output file: <FIGS/equity_accLengthv4-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-06-30 11:34:08
+(epstopdf)                    date: 2014-06-30 20:34:08
 (epstopdf)                    size: 88080 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGS/equity_accLengthv4-ep
 s-converted-to.pdf FIGS/equity_accLengthv4.eps>
 (epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 
-<FIGS/equity_accLengthv4-eps-converted-to.pdf, id=105, 377.41pt x 304.13625pt>
+<FIGS/equity_accLengthv4-eps-converted-to.pdf, id=155, 377.41pt x 304.13625pt>
 File: FIGS/equity_accLengthv4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use FIGS/equity_accLengthv4-eps-converted-to.pdf>
@@ -751,7 +749,7 @@ nput line 88.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<FIGS/accByEq.png, id=106, 421.575pt x 718.93594pt>
+<FIGS/accByEq.png, id=156, 421.575pt x 718.93594pt>
 File: FIGS/accByEq.png Graphic file (type png)
  <use FIGS/accByEq.png>
 Package pdftex.def Info: FIGS/accByEq.png used on input line 138.
@@ -761,18 +759,18 @@ Package pdftex.def Info: FIGS/accByEq.png used on input line 138.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <FIGS/equity_acc_loss_curves.eps>
-(epstopdf)                    date: 2014-06-19 14:19:06
+(epstopdf)                    date: 2014-06-19 23:19:06
 (epstopdf)                    size: 12231 bytes
 (epstopdf)             Output file: <FIGS/equity_acc_loss_curves-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2014-06-19 14:19:06
+(epstopdf)                    date: 2014-06-19 23:19:06
 (epstopdf)                    size: 12387 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGS/equity_acc_loss_curve
 s-eps-converted-to.pdf FIGS/equity_acc_loss_curves.eps>
 (epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
 
-<FIGS/equity_acc_loss_curves-eps-converted-to.pdf, id=108, 332.24126pt x 484.81
+<FIGS/equity_acc_loss_curves-eps-converted-to.pdf, id=158, 332.24126pt x 484.81
 125pt>
 File: FIGS/equity_acc_loss_curves-eps-converted-to.pdf Graphic file (type pdf)
  <use FIGS/equity_acc_loss_curves-eps-converted-to.pdf>
@@ -790,18 +788,18 @@ erted-to.pdf>] (./050sf.tex) (./060pacifica.tex) (./070danville.tex [14
 ])
 (./080discussion.tex
 Package epstopdf Info: Source file: <FIGS/equity_bart_bridges_acc3vJWBv4.eps>
-(epstopdf)                    date: 2014-07-01 09:15:41
+(epstopdf)                    date: 2014-07-01 18:15:41
 (epstopdf)                    size: 16478 bytes
 (epstopdf)             Output file: <FIGS/equity_bart_bridges_acc3vJWBv4-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2014-07-01 09:39:04
+(epstopdf)                    date: 2014-07-01 18:39:04
 (epstopdf)                    size: 16115 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGS/equity_bart_bridges_a
 cc3vJWBv4-eps-converted-to.pdf FIGS/equity_bart_bridges_acc3vJWBv4.eps>
 (epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 
-<FIGS/equity_bart_bridges_acc3vJWBv4-eps-converted-to.pdf, id=172, 367.3725pt x
+<FIGS/equity_bart_bridges_acc3vJWBv4-eps-converted-to.pdf, id=222, 367.3725pt x
  314.17375pt>
 File: FIGS/equity_bart_bridges_acc3vJWBv4-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -812,18 +810,18 @@ df used on input line 80.
 
 [15]
 Package epstopdf Info: Source file: <FIGS/equity_footVsAccv3.eps>
-(epstopdf)                    date: 2014-06-30 11:28:26
+(epstopdf)                    date: 2014-06-30 20:28:26
 (epstopdf)                    size: 90062 bytes
 (epstopdf)             Output file: <FIGS/equity_footVsAccv3-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-06-30 11:35:02
+(epstopdf)                    date: 2014-06-30 20:35:02
 (epstopdf)                    size: 87282 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGS/equity_footVsAccv3-ep
 s-converted-to.pdf FIGS/equity_footVsAccv3.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
-<FIGS/equity_footVsAccv3-eps-converted-to.pdf, id=176, 377.41pt x 304.13625pt>
+<FIGS/equity_footVsAccv3-eps-converted-to.pdf, id=226, 377.41pt x 304.13625pt>
 File: FIGS/equity_footVsAccv3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use FIGS/equity_footVsAccv3-eps-converted-to.pdf>
@@ -878,10 +876,10 @@ ive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on main.pdf (21 pages, 11114597 bytes).
+Output written on main.pdf (21 pages, 11882156 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
+ 298 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
