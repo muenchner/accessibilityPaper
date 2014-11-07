@@ -75,20 +75,21 @@
 
 
 
-\begin{figure}[H]
+\begin{figure}[htb]
 \centering
-\includegraphics[width=5in]{FIGS/equity_bart_bridges_acc3vJWBv4.eps} 
-\caption{Percentage of BART (heavy-rail) lines not operational versus percentage of highway bridges damaged, where each data point corresponds to one earthquake damage map. The values are color-coded by the average loss in accessibility per day per person over all TAZs for households with the fewer cars than people who work. Two events discussed in this section are marked by the letters A and B.}
+\includegraphics[width=4in]{FIGS/equity_bart_bridges_acc3vJWBv4.eps} 
+\caption{Percentage of BART lines not operational versus percentage of highway bridges damaged, where each data point corresponds to one earthquake simulation. The points are color-coded by the average loss in accessibility per day per person over all TAZs for households with the fewer cars than workers.}
 \label{fig:bartBri}
 \end{figure}
 
 
 
-First, we compare patterns of transit system damage with patterns of travel mode shifts after earthquake events. Over all the simulated events, taking a weighted average by the annual likelihood of each event, we see a reduction in transit ridership (25\% weighted average decrease from the base case). This is not surprising. The heavy rail systems (BART and Caltrain) are not fully operational in most of the forty simulated events (Table~\ref{tab:transit}), and these have heavy ridership. The light rail systems (VTA and Muni light rail) also suffered losses in many events (Table~\ref{tab:transit}). %As detailed in~\cite{miller_seismic_2014}, with regards to the other transit systems, trans-bay and cross-county bus lines were suspended in the forty events and the baseline case; main local buses are modeled as operational, although with possible delays; and ferries are modeled as operational.
+First, we compare patterns of transit system damage with patterns of travel mode shifts after earthquake events. Over all the simulated events, taking a weighted average by the annual occurrence rate of each event, we see a 25\% reduction in transit ridership after an earthquake. The heavy rail systems (BART and Caltrain) are not fully operational in most of the forty simulated events (Table~\ref{tab:transit}), and these have heavy ridership. The light rail systems (VTA and Muni) also suffer losses in many events (Table~\ref{tab:transit}). %As detailed in~\cite{miller_seismic_2014}, with regards to the other transit systems, trans-bay and cross-county bus lines were suspended in the forty events and the baseline case; main local buses are modeled as operational, although with possible delays; and ferries are modeled as operational.
 % in only 13 out of the 40 earthquake events, are more than 50\% of the BART lines running, with similar trends for other transit systems. 
- The result is an average increase in the percentage of trips by the other modes (foot, car, and bike). 
+Some of the pre-earthquake transit trips do not take place at all in the post-earthquake simulations, and some switch to other modes (foot, car, and bike), causing small average increases in the number of trips taken by other modes. One exception to this trend is the M6.35 Great Valley, Pittsburg-Kirby Hills Fault earthquake event, illustrated in Figure~\ref{fig:scen_acc}{e and~\ref{fig:scen_acc}{f}. In this event, there were no line closures on the four major transit systems listed in Table~\ref{tab:transit}. There were, however, some bridge closures on the highways, resulting in a slight increase in transit ridership and also in trips by foot.
 
 \begin{table*}
+\caption{Number of the 40 earthquake realizations in which for major transit networks have a specified level of functionality. Functionality is measured by the percentage of lines that are operational in a given realization. }
 \centering
 \begin{tabular}{c||c|c|c|c}
 \textbf{Functionality}           & \textbf{BART} & \textbf{Caltrain} & \textbf{Muni Light Rail} & \textbf{VTA Light Rail}  \\
@@ -98,29 +99,25 @@ Full & 3 & 13 & 25 & 9\\
 1-49\%  & 8 & 0 & 0 & 0\\
 None & 19 & 27 & 0 & 31\\
 \end{tabular}
-\caption{Transit network functionality as a count out of the forty simulated events for BART, Caltrain, Muni Light Rail, and VTA Light Rail. Functionality is measured by the percentage of lines that are operational given a damage map (based on a ground-motion intensity map). }
 \label{tab:transit}
 \end{table*}
 
 
 %The result is approximately a 1.3????\% change in travel mode. This is roughly consistent with the 14\% change in travel mode estimated after the 1994 Northridge earthquake~\cite{gordon_transport-related_1998}.
 
-A notable exception is the M6.35 Great Valley, Pittsburg-Kirby Hills Fault earthquake event, as illustrated in Figure~\ref{fig:scen_acc}{(e,f)}. In this event, there were no line closures on the major transit systems (BART, Caltrain, Muni, and VTA Light Rail). There were, however, some bridge closures on the highways (Figure~\ref{fig:scen_acc}{(e)}). The result was a slight increase in transit ridership and also in trips by foot.
-
-In general, accessibility impact grows with increasing number of damaged transit lines, particularly in combination with high numbers of damaged bridges (Figure~\ref{fig:bartBri}). The results do not conclusively show that transit is a key contributor to accessibility risk, but based on individual examples, the data suggests this conclusion. For example, in the set of forty events analyzed with the high-fidelity model, the M6.85 Hayward Rogers-Creek and the M7.45 Northern San Andreas Fault event both have a similar number of damaged bridges (around 11\%); these are noted by points A and B respectively in Figure~\ref{fig:bartBri}. These correspond to the bridge damage and accessibility maps in Figures~\ref{fig:scen_acc}{(a,b)} and \ref{fig:scen_acc}{(c,d)} respectively.  However, this Hayward Rogers-Creek event has significantly higher accessibility impact. Similarly, the transit impact was different. This Northern San Andreas event had only 4 of the 14 BART lines, all Caltrain, and all VTA Light Rail lines not operational, whereas this Hayward Rogers-Creek event had all 14 of the 14 BART lines, all Caltrain, all VTA Light Rail and 3 of the 8 Muni light rail lines not operational.  Thus, the Hayward Rodgers-Creek event featured significantly higher losses to the transit network.
-%Thus, the transit lines were impacted significantly differently. 
-Moreover, the differences in accessibility results could not have been predicted from simpler models focusing on bridge portfolio losses, because the percent of damaged bridges was about the same, and the San Andreas event actually corresponded to a greater increase in fixed-demand travel time.
+In general, accessibility impact grows with increasing number of damaged transit lines, particularly in combination with high numbers of damaged bridges (Figure~\ref{fig:bartBri}). Individual network simulations also suggest that transit is a key contributor to accessibility risk. For example, the M6.85 Hayward Rogers-Creek and the M7.45 Northern San Andreas Fault events from Figure~\ref{fig:scen_acc} both have around 11\% of bridges damaged. These events are labeled in Figure~\ref{fig:bartBri}, which indicates that the Hayward Rogers-Creek event has significantly higher transit network damage and accessibility loss. The Northern San Andreas event had 10 of the 14 BART lines and all Muni lines operational, whereas the Hayward Rogers-Creek event had no BART lines and 5 of the 8 Muni lines operational (Caltrain and VTA were not operational in either simulation).  
+Moreover, the differences in accessibility results could not have been predicted from simpler models focusing on bridge portfolio losses, because the percent of damaged bridges was about the same, and the San Andreas event actually corresponded to a greater increase in fixed-demand travel time when modeled using a much simpler traffic model.
 
 %In general, accessibility impact grows with increasing number of damaged transit lines, particularly in combination with high numbers of damaged bridges (Figure~\ref{fig:bartBri}). The results do not conclusively show that transit is a key contributor to accessibility risk, but based on individual examples, the data suggests this conclusion. For example, the  M7.05 Hayward Rogers-Creek Fault event discussed above and the M7.45 Northern San Andreas Fault event both have a similar number of damaged bridges; these are noted by points A and B respectively in Figure~\ref{fig:bartBri}. However, this Hayward Rogers-Creek event has significantly higher accessibility impact. Similarly, the transit impact was different. This Northern San Andreas event had only 4 of the 14 BART lines, all Caltrain and all VTA Light Rail lines not operational, whereas this Hayward Rogers-Creek event had all 14 of the 14 BART lines, all Caltrain, all VTA Light Rail and 3 of the 8 Muni light rail lines not operational. Thus, the transit lines were significantly differently impacted. Furthermore, the accessibility results could not have been predicted from the efficient transportation model introduced in  Section~\ref{sec:caseMet}.
 
 % For example, the xxxx event and the xxxx event have similar number of damaged bridges and a similar travel time predicted from the efficient fixed-demand model. However, the xxxx event has significantly higher accessibility impact. Similarly, the transit impact was different. The xxxx event had xxx and the xxxx event had xxxx.
 
-Second, we examine the correlation between a community's walkability, as measured by the percentage of total trips made by that travel mode, and the expected decrease in accessibility by community. We see that an increased percentage of pre-earthquake trips on foot corresponds to a lower average decrease in accessibility (Figure~\ref{fig:walkingVsAcc}). This result corroborates the specific example of the San Francisco Financial District we saw in Section~\ref{sec:accSF}. Furthermore,  on average, the number of by-foot trips slightly increases after the earthquake events where road congestion worsens. This model result is consistent with the observations after the 1995 Kobe earthquake, in which many commuters switched to walking and biking (``non-mechanized modes'') in the weeks after the earthquake~\cite{gordon_transport-related_1998}. In conclusion, the data suggests that TAZs, i.e. communities, which have a greater walkability are also more resilient to earthquake-related accessibility risk. 
+Next, we examine the correlation between a community's walkability, as measured by the percentage of total trips made by that travel mode, and its expected decrease in accessibility. Figure~\ref{fig:walkingVsAcc} shows that communities with a high percentage of pre-earthquake trips on foot have a lower average decrease in accessibility. This result corroborates the specific example of the San Francisco Financial District discussed in Section~\ref{sec:accSF}. Furthermore,  on average, the number of by-foot trips increases after the earthquake events where road congestion worsens. This model result is consistent with the observations after the 1995 Kobe earthquake, in which many commuters switched to walking and biking in the weeks after the earthquake~\cite{gordon_transport-related_1998}. This suggests that communities with greater walkability are also more resilient to earthquake-related accessibility risk. 
 
-\begin{figure}[H]
+\begin{figure}[htb]
 \centering
-\includegraphics[width=5in]{FIGS/equity_footVsAccv3.eps} 
-\caption{Percentage of total trips by foot (pre-earthquake) versus decrease in total accessibility, measured in $utils$ per day (for households with the number of cars less than the number of workers). Each dot represents data from one TAZ, and red dots highlight the data points for the three case study communities: San Francisco financial district, Danville, and Pacifica.}
+\includegraphics[width=4in]{FIGS/equity_footVsAccv3.eps} 
+\caption{Percentage of pre-earthquake trips taken by foot versus expected decrease in accessibility among households with fewer cars than workers, for all TAZs in the study area. Each dot represents data from one TAZ, and red dots highlight the data points for the three case study communities.}
 \label{fig:walkingVsAcc}
 \end{figure}
 
