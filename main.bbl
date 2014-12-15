@@ -110,58 +110,12 @@ M.~Miller, J.~Baker, Ground-motion intensity and damage map selection for
 R.~Cervero, K.-L. Wu, {Polycentrism, commuting, and residential location in the
   San Francisco Bay area}, Environment and Planning A 29~(5) (1997) 865--886.
 
-\bibitem{boore_ground-motion_2008}
-D.~M. Boore, G.~M. Atkinson, Ground-motion prediction equations for the average
-  horizontal component of {PGA}, {PGV}, and 5\%-damped {PSA} at spectral
-  periods between 0.01 s and 10.0 s, Earthquake Spectra 24~(1) (2008) 99--138.
-
-\bibitem{abrahamson_summary_2008}
-N.~Abrahamson, W.~Silva, {Summary of the Abrahamson \& Silva {NGA}
-  Ground-Motion Relations}, Earthquake Spectra 24~(1) (2008) 67--97.
-\newblock \href {http://dx.doi.org/10.1193/1.2924360}
-  {\path{doi:10.1193/1.2924360}}.
-
-\bibitem{chiou_nga_2008}
-B.~Chiou, R.~R. Youngs, An {NGA} model for the average horizontal component of
-  peak ground motion and response spectra, Earthquake Spectra 24~(1) (2008)
-  173--215.
-\newblock \href {http://dx.doi.org/10.1193/1.2894832}
-  {\path{doi:10.1193/1.2894832}}.
-
-\bibitem{campbell_nga_2008}
-K.~W. Campbell, Y.~Bozorgnia, {NGA} ground motion model for the geometric mean
-  horizontal component of {PGA}, {PGV}, {PGD} and 5\% damped linear elastic
-  response spectra for periods ranging from 0.01 to 10s, Earthquake Spectra
-  24~(1) (2008) 139--171.
-\newblock \href {http://dx.doi.org/10.1193/1.2857546}
-  {\path{doi:10.1193/1.2857546}}.
-
-\bibitem{baker_which_2006}
-J.~W. Baker, C.~A. Cornell, Which spectral acceleration are you using?,
-  Earthquake Spectra 22~(2) (2006) 293--312.
-\newblock \href {http://dx.doi.org/10.1193/1.2191540}
-  {\path{doi:10.1193/1.2191540}}.
-
-\bibitem{foulser-piggott_predictive_2012}
-R.~Foulser-Piggott, P.~J. Stafford, {A predictive model for Arias intensity at
-  multiple sites and consideration of spatial correlations}, Earthquake
-  Engineering \& Structural Dynamics 41~(3) (2012) 431–451.
-\newblock \href {http://dx.doi.org/10.1002/eqe.1137}
-  {\path{doi:10.1002/eqe.1137}}.
-
 \bibitem{han_probabilistic_2012}
 Y.~Han, R.~A. Davidson, Probabilistic seismic hazard analysis for spatially
   distributed infrastructure, Earthquake Engineering \& Structural Dynamics
   41~(15) (2012) 2141--2158.
 \newblock \href {http://dx.doi.org/10.1002/eqe.2179}
   {\path{doi:10.1002/eqe.2179}}.
-
-\bibitem{jayaram_correlation_2009}
-N.~Jayaram, J.~W. Baker, Correlation model for spatially distributed
-  ground-motion intensities, Earthquake Engineering \& Structural Dynamics
-  38~(15) (2009) 1687--1708.
-\newblock \href {http://dx.doi.org/10.1002/eqe.922}
-  {\path{doi:10.1002/eqe.922}}.
 
 \bibitem{field_opensha:_2003}
 E.~H. Field, T.~H. Jordan, C.~A. Cornell, {OpenSHA:} a developing
@@ -192,6 +146,18 @@ D.~J. Wald, T.~I. Allen, Topographic slope as a proxy for seismic site
 \newblock \href {http://dx.doi.org/10.1785/0120060267}
   {\path{doi:10.1785/0120060267}}.
 
+\bibitem{boore_ground-motion_2008}
+D.~M. Boore, G.~M. Atkinson, Ground-motion prediction equations for the average
+  horizontal component of {PGA}, {PGV}, and 5\%-damped {PSA} at spectral
+  periods between 0.01 s and 10.0 s, Earthquake Spectra 24~(1) (2008) 99--138.
+
+\bibitem{jayaram_correlation_2009}
+N.~Jayaram, J.~W. Baker, Correlation model for spatially distributed
+  ground-motion intensities, Earthquake Engineering \& Structural Dynamics
+  38~(15) (2009) 1687--1708.
+\newblock \href {http://dx.doi.org/10.1002/eqe.922}
+  {\path{doi:10.1002/eqe.922}}.
+
 \bibitem{basoz_enhancement_1999}
 N.~Bas{\"o}z, J.~Mander, Enhancement of the highway transportation lifeline
   module in {HAZUS}, Tech. rep., Final Pre-Publication Draft (\#7) prepared for
@@ -201,12 +167,6 @@ N.~Bas{\"o}z, J.~Mander, Enhancement of the highway transportation lifeline
 K.~N. Ramanathan, Next generation seismic fragility curves for {California}
   bridges incorporating the evolution in seismic design philosophy, {PhD}
   thesis, Georgia Institute of Technology (2012).
-
-\bibitem{lee_uncertainty_2007}
-R.~Lee, A.~S. Kiremidjian, Uncertainty and correlation for loss assessment of
-  spatially distributed systems, Earthquake Spectra 23~(4) (2007) 753--770.
-\newblock \href {http://dx.doi.org/10.1193/1.2791001}
-  {\path{doi:10.1193/1.2791001}}.
 
 \bibitem{werner_redars_2006}
 S.~Werner, C.~Taylor, S.~Cho, J.~Lavoie, {REDARS} 2 methodology and software
@@ -236,10 +196,6 @@ J.~Ghosh, K.~Rokneddin, J.~E. Padgett, L.~Dueñas-Osorio, {Seismic reliability
   795--817.
 \newblock \href {http://dx.doi.org/10.1193/040512EQS155M}
   {\path{doi:10.1193/040512EQS155M}}.
-
-\bibitem{pugh_construction_2012}
-S.~Pugh, Construction statistics, Tech. rep., California Department of
-  Transportation Division of Engineering Services (2012).
 
 \bibitem{kockelman_travel_1997}
 K.~Kockelman, {Travel Behavior as Function of Accessibility, Land Use Mixing,
@@ -292,12 +248,6 @@ P.~Waddell, {UrbanSim:} modeling urban development for land use,
 W.~Davidson, P.~Vovsha, J.~Freedman, R.~Donnelly, {CT-RAMP} family of
   activity-based models, in: Proceedings of the 33rd Australasian Transport
   Research Forum ({ATRF)}, Canberra, Australia, 2010, p.~15.
-
-\bibitem{wakabayashi_network_1992}
-H.~Wakabayashi, H.~Kameda, {Network performance of highway systems under
-  earthquake effects: a case study of the 1989 Loma Prieta earthquake}, in:
-  Proceedings {US-Japan} Workshop on Earthquake Disaster Prevention for
-  Lifeline Systems, 1992, pp. 215--232.
 
 \bibitem{u.s._bureau_of_the_census_united_2010}
 {U.S. Bureau of the Census}, {United States Census 2010}, Tech. rep., {U.S.}

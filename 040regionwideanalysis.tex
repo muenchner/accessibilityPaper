@@ -9,8 +9,8 @@ In addition to looking at average accessibility loss, we can compute an accessib
  
 \begin{figure*}[ht!]
     \centering
-    \includegraphics[height=7in]{FIGS/accByGroup.png}
-\caption{Expected changes in accessibility per person per day for each combination of income class and car ownership group. The darker the color, the greater the losses in accessibility. Each row of figures corresponds to an income class and each column corresponds to a class of car ownership). \bf{TODO: confirm legend limits change}}% (no cars, workers $<$ cars , workers $\geq$ cars }
+    \includegraphics[height=7in]{FIGS/accByGroup.pdf}
+\caption{Expected changes in accessibility per person per day for each combination of income class and car ownership group. The darker the color, the greater the losses in accessibility. Each row of figures corresponds to an income class and each column corresponds to a class of car ownership). }% (no cars, workers $<$ cars , workers $\geq$ cars }
 %: a) low income, no cars, b) low income, workers $<$ cars, c) low income, workers $\geq$ cars, d) medium income, no cars, e) medium income, workers $<$ cars, cf) medium income, workers $\geq$ cars, g) high income, no cars, h) high income, workers $<$ cars, i) high income, workers $\geq$ cars, j) very high income, no cars, k) very high income, workers $<$ cars, l) very high income, workers $\geq$ cars}
 \label{fig:acc_by_segment}
 \end{figure*}
@@ -30,10 +30,10 @@ In addition to looking at average accessibility loss, we can compute an accessib
 \begin{tabular}{c|c|c}
 \textbf{Income class}           & \textbf{Income range, 1989 USD} & \textbf{Income range, 2014 USD} \\
 \hline
-Low & 0 - \$25,000 & 0 - \$47,334\\
+Low & $<$ \$25,000 & $<$ \$47,334\\
 Medium &  \$25,000 - \$45,000 & \$47,334 - \$85,202\\
 High & \$45,000 - \$75,000 & \$85,202 - \$142,004 \\
-Very high & more than \$75,000 & more than \$142,004
+Very high & $>$ \$75,000 & $>$ \$142,004
 \end{tabular}
 \label{tab:incomes}
 \end{table}
@@ -91,13 +91,15 @@ Thus, for a given TAZ, the differences in impacts across incomes are not that gr
 
 
 
-Next, we consider TAZs indicated to have elevated risk: due east of San Francisco, in the suburbs of San Jose, along the coastal and bay-side regions south of San Francisco (e.g., Millbrae and Pacifica), and in parts of San Francisco (south-central neighborhoods including the Westland Highlands and Glen Park neighborhoods). Geographic proximity to hazardous faults is one source of spatial variation. The San Francisco Peninsula is at risk of disruption from large magnitude San Andreas earthquakes, while the East Bay is at risk from slightly smaller but more frequent events on the Hayward Fault. Network simulations indicate that both Hayward and San Andreas earthquakes can cause accessibility problems for the East Bay. Figure~\ref{fig:scen_acc} shows realizations of a magnitude 6.85 Hayward event and a magnitude 7.45 San Andreas event---both show high accessibility losses in the East Bay.
+Next, we consider TAZs indicated to have elevated risk.
+%: due east of San Francisco, in the suburbs of San Jose, along the coastal and bay-side regions south of San Francisco (e.g., Millbrae and Pacifica), and in parts of San Francisco (south-central neighborhoods including the Westland Highlands and Glen Park neighborhoods). Geographic proximity to hazardous faults is one source of spatial variation. 
+The San Francisco Peninsula is at risk of disruption from large magnitude San Andreas earthquakes, while the East Bay is at risk from slightly smaller but more frequent events on the Hayward Fault. Network simulations indicate that both Hayward and San Andreas earthquakes can cause accessibility problems for the East Bay. Figure~\ref{fig:scen_acc} shows realizations of a magnitude 6.85 Hayward event and a magnitude 7.45 San Andreas event---both show high accessibility losses in the East Bay.
 %In contrast, the more moderate, more frequent Hayward event caused little impact for San Francisco; the San Andreas events were the chief contributors to the loss of accessibility in San Francisco. 
 In contrast, the main predicted accessibility losses in San Francisco correspond primarily to San Andreas events.
 Figures~\ref{fig:scen_acc}{c} and~\ref{fig:scen_acc}{d} provide one such example. Figures~\ref{fig:scen_acc}{e} and~\ref{fig:scen_acc}{f} show a lower magnitude event farther away from the main population centers: a magnitude 6.35 event in the Great Valley Pittsburg-Kirby Hills Fault. This shows how the more minor faults in the East Bay can contribute to that area's risk.
 %, e.g., Figures~\ref{fig:scen_acc}{(d,f)}. 
 %Note that in the three individual earthquake events shown---Hayward, M6.85, b) San Andreas, M7.45, c) San Andreas, M8.25---the accessibility losses are higher than average, since these are major events. 
-The Figure~\ref{fig:scen_acc} results are for one specific socio-economic group, but comparable results for the other groups show the same general patterns.
+The Figure~\ref{fig:scen_acc} results are for one specific socio-economic group, but comparable results for the other groups show the same patterns.
 
 
 %\begin{figure}
@@ -108,8 +110,8 @@ The Figure~\ref{fig:scen_acc} results are for one specific socio-economic group,
 %\end{figure}
 \begin{figure*}[!htb]
     \centering
-        \includegraphics[height=7in]{FIGS/accByEq.png}
-    \caption{Bridge damage and corresponding accessibility losses by TAZ for medium income households with fewer cars than workers. The top three rows show results from specific events, while the bottom row has expected values calculated as a weighted average over all events. \bf{TODO: clean up figure}}
+        \includegraphics[height=7in]{FIGS/accByEq.pdf}
+    \caption{Bridge damage and corresponding accessibility losses by TAZ for medium income households with fewer cars than workers. The top three rows show results from specific events, while the bottom row has expected values calculated as a weighted average over all events.}
     % (the darker the color, the greater the losses). For expected bridge damage, the values are on a continuous scale from white to yellow to red in order of increasing annual likelihood of extensive or complete damage.}
 \label{fig:scen_acc}
 \end{figure*}
@@ -130,5 +132,5 @@ Finally, we can examine the rates of loss exceedance (eq.~\ref{eq:exceedance}), 
 Recognizing that the impact varies significantly by TAZ, as indicated by Figure~\ref{fig:acc_by_segment},
 %and the general lognormal shape of the accessibility cumulative distribution functions for a given event (Figure~\ref{fig:xxxx})
 we also examine the accessibility loss exceedance curve for three communities: part of the San Francisco Financial District, Danville, and Pacifica. This part of the San Francisco Financial District  represents an area with relatively low expected changes in accessibility, whereas Danville and Pacifica are at an elevated risk in almost all socio-economic groups (Figure~\ref{fig:acc_by_segment}). 
-The general trends are corroborated by the loss exceedance curves for these three communities (Figure~\ref{fig:acc_by_TAZ_and_income}{a} shows results for medium income households with fewer cars than workers). The average middle-class person from Danville in a household with fewer cars than workers is expected to experience travel-related losses up to 1 $util$ (or 75 minutes of extra travel time per day) after a rare earthquake. In contrast, a resident of San Francisco's Financial District has expected losses of only a tenth as much when considering the same exceedance rate. At annual rates of less than 0.01 (i.e., return periods greater than 100 years), Danville and Pacifica follow a similar general pattern, which differs dramatically from that of San Francisco. 
+The general trends are corroborated by the loss exceedance curves for these three communities (Figure~\ref{fig:acc_by_TAZ_and_income}{a} shows results for medium income households with fewer cars than workers). The average middle-class person from Danville in a household with fewer cars than workers is expected to experience travel-related losses up to 1 $util$ (or 75 minutes of extra travel time per day) after a rare earthquake. In contrast, a resident of San Francisco's Financial District has expected losses of only a tenth as much when considering the same exceedance rate. At annual rates of less than 0.01 (i.e., return periods greater than 100 years), Danville and Pacifica follow a similar general pattern that differs dramatically from that of San Francisco. 
 
