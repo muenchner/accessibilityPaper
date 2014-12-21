@@ -31,7 +31,7 @@ The total log ground-motion intensity ($Y$) for a given realization is computed 
 \ln Y_{ij} = \overline{\ln Y (M_j, R_{ij}, V_{s30,i}, \ldots) }+ \sigma_{ij} \epsilon_{ij} + \tau_j \eta_j
 \label{eq:GMPEmet}
 \end{equation}
-where $\overline{\ln Y (M_j, R_{ij}, V_{s30,i}, \ldots) }$ is the predicted mean log ground motion intensity at location $i$, given an earthquake of magnitude $M_j$ at a distance of $R_{ij}$, observed at a site with average shear wave velocity down to 30$m$ of $V_{s30,i}$. Variability in ground motion intensity about this mean value is represented by $\sigma_{iq}$ and $\tau_q$, the within- and between-event standard deviations, respectively. 
+where $\overline{\ln Y (M_j, R_{ij}, V_{s30,i}, \ldots) }$ is the predicted mean log ground motion intensity at location index $i$, given an earthquake of magnitude $M_j$ at a distance of $R_{ij}$, observed at a site with average shear wave velocity down to 30$m$ of $V_{s30,i}$. Variability in ground motion intensity about this mean value is represented by $\sigma_{iq}$ and $\tau_q$, the within- and between-event standard deviations, respectively, for earthquake scenarios at the index $q = 1, \ldots, Q$.
 The index $j$ indicates the ground-motion intensity map ($j = 1, \ldots, m$ where $m = Q \times b$), $\epsilon_{ij}$ is a normalized within-event residual representing location-to-location variability and $\eta_j$ is the normalized between-event residual. Both $\epsilon_{ij}$ and $\eta_j$ are normal random variables with zero mean and unit standard deviation. The vector of $\epsilon_{ij}$ has a multivariate normal distribution 
 and $\eta_j$ is univariate. 
 
