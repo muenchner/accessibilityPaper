@@ -1,0 +1,279 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Journal Article
+% LaTeX Template
+% Version 1.3 (9/9/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[twoside]{article}
+
+\usepackage{lipsum} % Package to generate dummy text throughout this template
+
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage{multicol} % Used for the two-column layout of the document
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+\usepackage{hyperref} % For hyperlinks in the PDF
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{M. Miller and J.W. Baker} % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+%---------------------
+%extra
+\usepackage[comma,square]{natbib}
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers after \end{frontmatter}.
+\usepackage{lineno}
+
+%% natbib.sty is loaded by default. However, natbib options can be
+%% provided with \biboptions{...} command. Following options are
+%% valid:
+
+%%   round  -  round parentheses are used (default)
+%%   square -  square brackets are used   [option]
+%%   curly  -  curly braces are used      {option}
+%%   angle  -  angle brackets are used    <option>
+%%   semicolon  -  multiple citations separated by semi-colon
+%%   colon  - same as semicolon, an earlier confusion
+%%   comma  -  separated by comma
+%%   numbers-  selects numerical citations
+%%   super  -  numerical citations as superscripts
+%%   sort   -  sorts multiple citations according to order in ref. list
+%%   sort&compress   -  like sort, but also compresses numerical citations
+%%   compress - compresses without sorting
+%%
+%% \biboptions{comma,round}
+
+% \biboptions{}
+
+% if you have landscape tables
+\usepackage[figuresright]{rotating}
+
+% put your own definitions here:
+%   \newcommand{\cZ}{\cal{Z}}
+%   \newtheorem{def}{Definition}[section]
+%   ...
+\usepackage{bbm}
+
+% add words to TeX's hyphenation exception list
+%\hyphenation{author another created financial paper re-commend-ed Post-Script}
+
+% declarations for front matter
+
+% use eps figures
+\usepackage{epstopdf}
+%\usepackage{ecrc}
+
+\newcounter{ead}
+\gdef\emailauthor#1#2{\stepcounter{ead}%
+     \g@addto@macro\@elseads{\raggedright%
+      \let\corref\@gobble
+      \eadsep\texttt{#1} (#2)\def\eadsep{\unskip,\space}}%
+}
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{Coupling mode-destination accessibility with seismic risk assessment to identify at-risk communities}} % Article title
+
+\author{
+ \textsc{Mahalia Miller}\thanks{Corresponding author: Phone: +1-617-692-0574. Department of Civil and Environmental Engineering, Stanford University, 473 Via Ortega, MC 4020, Stanford, CA 94305, United States. Current address: Google, 345 Spear St., Floor 4, San Francisco, CA 94114, United States.}\\
+  \texttt{mahalia@alum.mit.edu}
+  \and
+ \textsc{Jack W. Baker}\thanks{Department of Civil and Environmental Engineering, Stanford University, 473 Via Ortega, MC 4020, Stanford, CA 94305, United States. URL:  web.stanford.edu/~bakerjw/}\\
+  \texttt{bakerjw@stanford.edu}
+%  \\ 
+%  \texttt{Stanford University, 473 Via Ortega, MC 4020, Stanford, CA 94305, United States}
+}
+
+
+% \author{Mahalia Miller}
+%%  \ead{mahalia@alum.mit.edu}
+%%  \contactphone{+1-617-692-0574}
+%% \fntext[label2]{Present address: Google Inc., 345 Spear St., Floor 4, San Francisco, CA 94114, United States}
+%% \cortext[cor1]{Corresponding author: Phone: +1-617-692-0574}
+%% \fntext[label3]{Current address: Google, 345 Spear St., Floor 4, San Francisco, CA 94114, United States}
+%  \author{Jack W. Baker}
+% \ead{bakerjw@stanford.edu}
+% \ead[url]{web.stanford.edu/~bakerjw/}
+% \address{Stanford University, 473 Via Ortega, MC 4020, Stanford, CA 94305, United States}
+
+%\address[label1]{Stanford University, Stanford, CA USA}
+%\address[label2]{Stanford University, Stanford, CA USA}
+
+%\address[label1]{Department of Civil and Environmental Engineering, Stanford University, 439 Panama Mall, MC:3037, Stanford, CA 94305, United States\fnref{label3}}
+
+
+%\author{
+%\large
+%\textsc{John Smith}\thanks{A thank you or further information}\\[2mm] % Your name
+%\normalsize University of California \\ % Your institution
+%\normalsize \href{mailto:john@smith.com}{john@smith.com} % Your email address
+%\vspace{-5mm}
+%}
+
+\date{}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Insert title
+
+\thispagestyle{fancy} % All pages have headers and footers
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+In this paper, we develop a framework for coupling mode-destination accessibility with quantitative seismic risk assessment to identify communities at high risk for travel disruptions after an earthquake. Mode-destination accessibility measures the ability of people to reach destinations they desire%; it is calculated as the log value of the sum of a function of the utilities of each destination over all possible destinations and travel modes, where the utility decreases if getting to that destination is more costly or time-intensive
+. We use a probabilistic seismic risk assessment procedure, including a stochastic set of earthquake events, ground-motion intensity maps, damage maps, and realizations of traffic and accessibility impacts. For a case study of the San Francisco Bay Area, we couple our seismic risk framework with a practical activity-based traffic model. As a result, we quantify accessibility risk probabilistically by community and household type. We find that accessibility varies more strongly as a function of travelers' geographic location than as a function of their income class, and we identify particularly at-risk communities.  We also observe that communities more conducive to local trips by foot or bike are predicted to be less impacted by losses in accessibility. This work shows the potential to link quantitative risk assessment methodologies with high-resolution travel models used by transportation planners. Quantitative risk metrics of this type should have great utility for planners working to reduce risk to a region's infrastructure systems.
+%In this paper, we develop a framework for coupling mode-destination accessibility with a quantitative seismic-risk assessment to identify communities at a high risk for travel disruptions after an earthquake. For a case study of the San Francisco Bay Area, we find that accessibility varies more strongly from location to location than between income classes, and we identify particularly at-risk communities.  We also observe that communities more conducive to local trips by foot or bike are predicted to be less impacted by losses in accessibility. 
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\begin{multicols}{1} % Two-column layout throughout the main article text
+\linenumbers
+
+%% main text
+\section{Introduction}
+\label{sec:accIntro}
+\input{010intro}
+%\clearpage
+
+
+\section{Case study: San Francisco Bay Area}
+\label{sec:accCase}
+\input{030framework}
+%\clearpage
+%\section{Risk framework}
+%\label{sec:accGeo}
+%\input{../equity/030framework}
+%\clearpage
+
+\section{Results and discussion}
+\label{sec:results}
+
+	\subsection{Region-wide results}
+	\label{sec:accAll}
+	\input{040regionwideanalysis}
+%	\clearpage
+	
+	
+	\subsection{Analysis for San Francisco Financial District}
+	\label{sec:accSF}
+	\input{050sf}
+%	\clearpage
+	
+	
+	\subsection{Analysis for Pacifica}
+	\label{sec:accPacifica}
+	\input{060pacifica}
+%	\clearpage
+	
+	
+	\subsection{Analysis for Danville}
+	\label{sec:accDanville}
+	\input{070danville}
+%	\clearpage
+
+	\subsection{Impact of travel mode shifts and regional variations in travel mode patterns}
+	\label{sec:accDisc}
+	\input{080discussion}
+%	\clearpage
+
+\section{Conclusions}
+\label{sec:accConc}
+\input{090conclusion}
+
+\section{Acknowledgements}
+\label{sec:accAckn}
+We thank Dave Ory at the Metropolitan Transportation Commission (MTC) and Tom Shantz and Loren Turner at Caltrans for motivating discussions and providing the case study data. The first author thanks the support of the NSF and Stanford Graduate Research Fellowships. This work was supported in part by the National Science Foundation under NSF grant number CMMI 0952402. Any opinions, findings and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.
+
+
+%% The Appendices part is started with the command \appendix;
+%% appendix sections are then done as normal sections
+%% \appendix
+
+%% \section{}
+%% \label{}
+
+%% References
+%%
+%% Following citation commands can be used in the body text:
+%% Usage of \cite is as follows:
+%%   \cite{key}         ==>>  [#]
+%%   \cite[chap. 2]{key} ==>> [#, chap. 2]
+%%
+
+%% References with BibTeX database:
+
+\bibliographystyle{elsarticle-num}
+\bibliography{newfile}%subset_journal} %change via grep -v "url =" file.bib > newfile.bib %http://tex.stackexchange.com/questions/26318/disabling-urls-in-bibliography
+
+
+%% Authors are advised to use a BibTeX database file for their reference list.
+%% The provided style file elsarticle-num.bst formats references in the required Procedia style
+
+%% For references without a BibTeX database:
+
+% \begin{thebibliography}{00}
+
+%% \bibitem must have the following form:
+%%   \bibitem{key}...
+%%
+
+% \bibitem{}
+
+% \end{thebibliography}
+
+\end{document}
