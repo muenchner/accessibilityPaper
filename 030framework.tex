@@ -177,7 +177,34 @@ The indicator function $\mathbbm{I}$  evaluates to 1 if the argument, $X_{j'} \g
 %\subsection{Model description}
 %We introduce two models to estimate the performance of the transportation network: a high-fidelity model and an efficient model.
 \subsubsection{Implementation}
-We compute accessibility using  \emph{Travel Model One} (version 0.3), an activity-based model used by the Metropolitan Transportation Commission (MTC), the local metropolitan planning organization (MPO)~\cite{erhardt_mtcs_2012}. It represents the full road network as well as the public transit networks, biking, and walking. Travel demand data consists of the locations of different households in the case study area, their destination preferences and utilities, their number of vehicles, and their income and other demographic data~\cite{erhardt_mtcs_2012,ory_personal_2013,waddell_urbansim:_2002}. This data was collected by the MTC from surveys and census information. We assume that the distributions of travel preferences do not change after an earthquake, although the actual destinations and trips will vary as people choose to forgo trips due to network disruption. The result is a variable-travel-demand model. This model uses a combination of Java code called CT-RAMP~\cite{davidson_ct-ramp_2010}, and the Citilabs Cube Voyager and Cube Cluster transportation planning software~\cite{erhardt_mtcs_2012}. The software takes 6+ hours on a high-performance computing platform to analyze a given network state, including reaching equilibrium on users trip choices and prefered travel modes and routes.
+We compute accessibility using  \emph{Travel Model One} (version 0.3), an activity-based model used by the Metropolitan Transportation Commission (MTC), the local metropolitan planning organization (MPO)~\cite{erhardt_mtcs_2012}. It represents the full road network as well as the public transit networks, biking, and walking. The agents in the travel model simulation are people drawn from the Census Public Use Micro-Sample, and are differentiated by their age, gender, worker status, student status, and household factors such as income, number of workers, number of vehicles, number of children, and other demographic data~\cite{erhardt_mtcs_2012,ory_personal_2013,waddell_urbansim:_2002,u.s._bureau_of_the_census_united_2010}. The utility, $V_{a(c)}$, of the $c^{th}$ choice for the $a^{th}$ person is a function of factors including travel time, travel cost (including tolls), origin and destination density, automobile ownership, destination topography, distance to transit, household size, age, and the traveler’s value of time, which is sampled from lognormal distributions based on the person’s income~\cite{metropolitan_technical_2013}. The mode choice set, $C$, is: drive alone, drive with one other passenger, drive with two other passengers, walk, bicycle, transit via walking, and transit via driving. 
+%Table~\ref{tab:choices} describes the choice set, $C$. 
+This data was collected by the MTC from household travel surveys, on-board transit passenger surveys, and census information~\cite{u.s._bureau_of_the_census_united_2010}. 
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=3in]{FIGS/CUBEflowchart.png} 
+\caption{Schematic of travel model.}
+\label{fig:traffic_model}
+\end{figure}
+
+%\begin{table}
+%\caption{Mode choice set for persons in the travel model.}
+%\centering
+%\begin{tabular}{c|c|c}
+%\textbf{Modal option}           & \textbf{Description} & \textbf{Data source} \\
+%\hline
+%Low & $<$ \$25,000 & $<$ \$47,334\\
+%Medium &  \$25,000 - \$45,000 & \$47,334 - \$85,202\\
+%High & \$45,000 - \$75,000 & \$85,202 - \$142,004 \\
+%Very high & $>$ \$75,000 & $>$ \$142,004
+%\end{tabular}
+%\label{tab:incomes}
+%\end{table}
+
+%Travel demand data consists of the locations of different households in the case study area, their destination preferences and utilities, their number of vehicles, and their income and other demographic data~\cite{erhardt_mtcs_2012,ory_personal_2013,waddell_urbansim:_2002}. This data was collected by the MTC from surveys and census information. 
+
+We assume that the distributions of travel preferences do not change after an earthquake, although the actual destinations and trips will vary as people choose to forgo trips due to network disruption. The result is a variable-travel-demand model. This model uses a combination of Java code called CT-RAMP~\cite{davidson_ct-ramp_2010}, and the Citilabs Cube Voyager and Cube Cluster transportation planning software~\cite{erhardt_mtcs_2012}. The software takes 6+ hours on a high-performance computing platform to analyze a given network state, including reaching equilibrium on users trip choices and preferred travel modes and routes. Figure~\ref{fig:traffic_model} illustrates the basic design of this variable-travel-demand model, where the “Determine demand” stage uses the utility functions described above among other factors, as implemented in the CT-RAMP module, and the “Assign trips” stage leverages the Cube software. Readers are referred to~\cite{miller_seismic_2014} for a more detailed discussion of the model design. 
 
 Given the computational cost of analyzing the network, analyzing thousands of scenarios with a crude Monte Carlo approach is not feasible. This analysis uses an improved sampling strategy to select damaged networks for analysis, and considers 40 sets of ground-motion intensity maps, damage maps, accessibility performance measure realizations, and corresponding annual rates of occurrence. The 40 realizations were selected (and their occurence rates adjusted appropriately) using an optimization procedure to ensure that the selected scenarios were consistent with the larger original set of simulations, in terms of the probability distributions of ground motion intensity at individual sites, and other parameters that ensured reasonableness of the distributions of network damage. In this sense, the selected simulations are a ``hazard consistent'' representation of the distribution of future earthquake impacts that could be experienced in the region. Readers are referred to~\cite{miller_seismic_2014} for more details about this set of events and computing mode-destination accessibility using this model. 
 
